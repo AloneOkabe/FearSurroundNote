@@ -30,7 +30,7 @@ namespace New_FearSurroundNote
 				label.Parent = groupBox5;
 				label.BackColor = Color.Transparent;
 			}
-			var Alabels = new List<Label> { ANum0, ANum1, ANum2, ANum3, ANum4, ANum5, ANum6, ANum7, ANum8, ANum9, ANum10, ANum11, ANum12, ANum13, ANum14, ADead1, ADead2, ADead3, ADead4 };
+			var Alabels = new List<Label> { ANum0, ANum1, ANum2, ANum3, ANum4, ANum5, ANum6, ANum7, ANum8, ANum9, ANum10, ANum11, ANum12, ANum13, ANum14, ADead1, ADead2, ADead3, ADead4, ADead5, ADead6 };
 			foreach (var label in Alabels)
 			{
 				Helper.ControlMover.Init(label);
@@ -41,7 +41,7 @@ namespace New_FearSurroundNote
 			百變怪A.Parent = PG1;
 			百變怪A.BackColor = Color.Transparent;
 
-			var Blabels = new List<Label> { BNum0, BNum1, BNum2, BNum3, BNum4, BNum5, BNum6, BNum7, BNum8, BNum9, BNum10, BNum11, BNum12, BNum13, BNum14, BDead1, BDead2, BDead3, BDead4 };
+			var Blabels = new List<Label> { BNum0, BNum1, BNum2, BNum3, BNum4, BNum5, BNum6, BNum7, BNum8, BNum9, BNum10, BNum11, BNum12, BNum13, BNum14, BDead1, BDead2, BDead3, BDead4, BDead5, BDead6 };
 			foreach (var label in Blabels)
 			{
 				Helper.ControlMover.Init(label);
@@ -51,7 +51,7 @@ namespace New_FearSurroundNote
 			Helper.ControlMover.Init(百變怪B);
 			百變怪B.Parent = PG2;
 			百變怪B.BackColor = Color.Transparent;
-			var Clabels = new List<Label> { CNum0, CNum1, CNum2, CNum3, CNum4, CNum5, CNum6, CNum7, CNum8, CNum9, CNum10, CNum11, CNum12, CNum13, CNum14, CDead1, CDead2, CDead3, CDead4 };
+			var Clabels = new List<Label> { CNum0, CNum1, CNum2, CNum3, CNum4, CNum5, CNum6, CNum7, CNum8, CNum9, CNum10, CNum11, CNum12, CNum13, CNum14, CDead1, CDead2, CDead3, CDead4, CDead5, CDead6 };
 			foreach (var label in Clabels)
 			{
 				Helper.ControlMover.Init(label);
@@ -62,7 +62,7 @@ namespace New_FearSurroundNote
 			百變怪C.Parent = PG3;
 			百變怪C.BackColor = Color.Transparent;
 
-			var Dlabels = new List<Label> { DNum0, DNum1, DNum2, DNum3, DNum4, DNum5, DNum6, DNum7, DNum8, DNum9, DNum10, DNum11, DNum12, DNum13, DNum14, DDead1, DDead2, DDead3, DDead4 };
+			var Dlabels = new List<Label> { DNum0, DNum1, DNum2, DNum3, DNum4, DNum5, DNum6, DNum7, DNum8, DNum9, DNum10, DNum11, DNum12, DNum13, DNum14, DDead1, DDead2, DDead3, DDead4, DDead5, DDead6 };
 			foreach (var label in Dlabels)
 			{
 				Helper.ControlMover.Init(label);
@@ -212,15 +212,15 @@ namespace New_FearSurroundNote
 
 			if (Action.Text == "FearSurround  ")
 			{
-				this.Text = "FearSurrounds-Notes By: Alone (Hide)";
 				this.Visible = false;
-				this.Hide();
+				//this.Hide();
+				this.Text = "FearSurrounds-Notes By: Alone (Hide)";
 				Size = new Size(0, 0);
 			}
 			else
 			{
 				this.Visible = true;
-				this.Show();
+				//this.Show();
 				Right.Location = new Point(-2, -3);
 				Size = new Size(640, 545);
 				this.Text = "FearSurrounds-Notes By: Alone";
