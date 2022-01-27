@@ -32,6 +32,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.IDK = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.ADead6 = new System.Windows.Forms.Label();
             this.ANum0 = new System.Windows.Forms.Label();
             this.ANum6 = new System.Windows.Forms.Label();
@@ -56,6 +58,8 @@
             this.ANum11 = new System.Windows.Forms.Label();
             this.PG1 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.IDK2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.BDead6 = new System.Windows.Forms.Label();
             this.BDead5 = new System.Windows.Forms.Label();
             this.BNum0 = new System.Windows.Forms.Label();
@@ -63,7 +67,6 @@
             this.BNum1 = new System.Windows.Forms.Label();
             this.BNum7 = new System.Windows.Forms.Label();
             this.BNum10 = new System.Windows.Forms.Label();
-            this.百變怪B = new System.Windows.Forms.PictureBox();
             this.BNum12 = new System.Windows.Forms.Label();
             this.BNum11 = new System.Windows.Forms.Label();
             this.BDead4 = new System.Windows.Forms.Label();
@@ -78,15 +81,17 @@
             this.BNum6 = new System.Windows.Forms.Label();
             this.BDead1 = new System.Windows.Forms.Label();
             this.BNum9 = new System.Windows.Forms.Label();
+            this.百變怪B = new System.Windows.Forms.PictureBox();
             this.PG2 = new System.Windows.Forms.PictureBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.IDK3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.CDead6 = new System.Windows.Forms.Label();
             this.CDead5 = new System.Windows.Forms.Label();
             this.CNum0 = new System.Windows.Forms.Label();
             this.CNum14 = new System.Windows.Forms.Label();
             this.CNum1 = new System.Windows.Forms.Label();
             this.CNum7 = new System.Windows.Forms.Label();
-            this.百變怪C = new System.Windows.Forms.PictureBox();
             this.CNum10 = new System.Windows.Forms.Label();
             this.CNum12 = new System.Windows.Forms.Label();
             this.CNum11 = new System.Windows.Forms.Label();
@@ -102,12 +107,14 @@
             this.CNum6 = new System.Windows.Forms.Label();
             this.CDead1 = new System.Windows.Forms.Label();
             this.CNum9 = new System.Windows.Forms.Label();
+            this.百變怪C = new System.Windows.Forms.PictureBox();
             this.PG3 = new System.Windows.Forms.PictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.IDK4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.DDead6 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.DDead5 = new System.Windows.Forms.Label();
-            this.百變怪D = new System.Windows.Forms.PictureBox();
             this.DNum0 = new System.Windows.Forms.Label();
             this.DNum7 = new System.Windows.Forms.Label();
             this.DNum14 = new System.Windows.Forms.Label();
@@ -127,6 +134,7 @@
             this.DNum6 = new System.Windows.Forms.Label();
             this.DDead1 = new System.Windows.Forms.Label();
             this.DNum9 = new System.Windows.Forms.Label();
+            this.百變怪D = new System.Windows.Forms.PictureBox();
             this.PG4 = new System.Windows.Forms.PictureBox();
             this.FLP0 = new System.Windows.Forms.FlowLayoutPanel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -166,23 +174,32 @@
             this.Action = new System.Windows.Forms.Label();
             this.Right = new System.Windows.Forms.Panel();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.Shield4 = new System.Windows.Forms.Label();
+            this.Shield3 = new System.Windows.Forms.Label();
             this.Shield1 = new System.Windows.Forms.Label();
             this.Shield2 = new System.Windows.Forms.Label();
-            this.Shield3 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.IDK)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.百變怪A)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PG1)).BeginInit();
             this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.IDK2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.百變怪B)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PG2)).BeginInit();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.IDK3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.百變怪C)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PG3)).BeginInit();
             this.tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.IDK4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.百變怪D)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PG4)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -193,6 +210,8 @@
             this.Right.SuspendLayout();
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -210,7 +229,8 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.tabPage1.Controls.Add(this.pictureBox2);
+            this.tabPage1.Controls.Add(this.IDK);
+            this.tabPage1.Controls.Add(this.pictureBox3);
             this.tabPage1.Controls.Add(this.ADead6);
             this.tabPage1.Controls.Add(this.ANum0);
             this.tabPage1.Controls.Add(this.ANum6);
@@ -241,6 +261,27 @@
             this.tabPage1.Size = new System.Drawing.Size(629, 484);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "第 1 晚";
+            // 
+            // IDK
+            // 
+            this.IDK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
+            this.IDK.Image = ((System.Drawing.Image)(resources.GetObject("IDK.Image")));
+            this.IDK.Location = new System.Drawing.Point(568, 391);
+            this.IDK.Name = "IDK";
+            this.IDK.Size = new System.Drawing.Size(27, 27);
+            this.IDK.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.IDK.TabIndex = 66;
+            this.IDK.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(2, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 65;
+            this.pictureBox3.TabStop = false;
             // 
             // ADead6
             // 
@@ -349,8 +390,8 @@
             // 百變怪A
             // 
             this.百變怪A.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
-            this.百變怪A.Image = global::New_FearSurroundNote.Properties.Resources.百變怪;
-            this.百變怪A.Location = new System.Drawing.Point(528, 264);
+            this.百變怪A.Image = ((System.Drawing.Image)(resources.GetObject("百變怪A.Image")));
+            this.百變怪A.Location = new System.Drawing.Point(530, 391);
             this.百變怪A.Name = "百變怪A";
             this.百變怪A.Size = new System.Drawing.Size(27, 27);
             this.百變怪A.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -528,17 +569,22 @@
             // 
             // PG1
             // 
+            this.PG1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.PG1.Cursor = System.Windows.Forms.Cursors.Default;
             this.PG1.Image = global::New_FearSurroundNote.Properties.Resources.監獄;
             this.PG1.Location = new System.Drawing.Point(0, 0);
             this.PG1.Name = "PG1";
             this.PG1.Size = new System.Drawing.Size(630, 490);
-            this.PG1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PG1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PG1.TabIndex = 0;
             this.PG1.TabStop = false;
+            this.PG1.Click += new System.EventHandler(this.PG1_Click);
             // 
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.tabPage2.Controls.Add(this.IDK2);
+            this.tabPage2.Controls.Add(this.pictureBox4);
             this.tabPage2.Controls.Add(this.BDead6);
             this.tabPage2.Controls.Add(this.BDead5);
             this.tabPage2.Controls.Add(this.BNum0);
@@ -546,7 +592,6 @@
             this.tabPage2.Controls.Add(this.BNum1);
             this.tabPage2.Controls.Add(this.BNum7);
             this.tabPage2.Controls.Add(this.BNum10);
-            this.tabPage2.Controls.Add(this.百變怪B);
             this.tabPage2.Controls.Add(this.BNum12);
             this.tabPage2.Controls.Add(this.BNum11);
             this.tabPage2.Controls.Add(this.BDead4);
@@ -561,6 +606,7 @@
             this.tabPage2.Controls.Add(this.BNum6);
             this.tabPage2.Controls.Add(this.BDead1);
             this.tabPage2.Controls.Add(this.BNum9);
+            this.tabPage2.Controls.Add(this.百變怪B);
             this.tabPage2.Controls.Add(this.PG2);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
@@ -568,6 +614,27 @@
             this.tabPage2.Size = new System.Drawing.Size(629, 484);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "第 2 晚";
+            // 
+            // IDK2
+            // 
+            this.IDK2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
+            this.IDK2.Image = ((System.Drawing.Image)(resources.GetObject("IDK2.Image")));
+            this.IDK2.Location = new System.Drawing.Point(568, 391);
+            this.IDK2.Name = "IDK2";
+            this.IDK2.Size = new System.Drawing.Size(27, 27);
+            this.IDK2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.IDK2.TabIndex = 67;
+            this.IDK2.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(2, 3);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 66;
+            this.pictureBox4.TabStop = false;
             // 
             // BDead6
             // 
@@ -659,17 +726,6 @@
             this.BNum10.Size = new System.Drawing.Size(40, 29);
             this.BNum10.TabIndex = 42;
             this.BNum10.Text = "10";
-            // 
-            // 百變怪B
-            // 
-            this.百變怪B.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
-            this.百變怪B.Image = global::New_FearSurroundNote.Properties.Resources.百變怪;
-            this.百變怪B.Location = new System.Drawing.Point(528, 264);
-            this.百變怪B.Name = "百變怪B";
-            this.百變怪B.Size = new System.Drawing.Size(27, 27);
-            this.百變怪B.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.百變怪B.TabIndex = 60;
-            this.百變怪B.TabStop = false;
             // 
             // BNum12
             // 
@@ -853,26 +909,38 @@
             this.BNum9.TabIndex = 41;
             this.BNum9.Text = "9";
             // 
+            // 百變怪B
+            // 
+            this.百變怪B.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
+            this.百變怪B.Image = ((System.Drawing.Image)(resources.GetObject("百變怪B.Image")));
+            this.百變怪B.Location = new System.Drawing.Point(530, 391);
+            this.百變怪B.Name = "百變怪B";
+            this.百變怪B.Size = new System.Drawing.Size(27, 27);
+            this.百變怪B.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.百變怪B.TabIndex = 60;
+            this.百變怪B.TabStop = false;
+            // 
             // PG2
             // 
             this.PG2.Image = global::New_FearSurroundNote.Properties.Resources.監獄;
             this.PG2.Location = new System.Drawing.Point(0, 0);
             this.PG2.Name = "PG2";
             this.PG2.Size = new System.Drawing.Size(630, 490);
-            this.PG2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PG2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PG2.TabIndex = 31;
             this.PG2.TabStop = false;
             // 
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.tabPage3.Controls.Add(this.IDK3);
+            this.tabPage3.Controls.Add(this.pictureBox5);
             this.tabPage3.Controls.Add(this.CDead6);
             this.tabPage3.Controls.Add(this.CDead5);
             this.tabPage3.Controls.Add(this.CNum0);
             this.tabPage3.Controls.Add(this.CNum14);
             this.tabPage3.Controls.Add(this.CNum1);
             this.tabPage3.Controls.Add(this.CNum7);
-            this.tabPage3.Controls.Add(this.百變怪C);
             this.tabPage3.Controls.Add(this.CNum10);
             this.tabPage3.Controls.Add(this.CNum12);
             this.tabPage3.Controls.Add(this.CNum11);
@@ -888,12 +956,34 @@
             this.tabPage3.Controls.Add(this.CNum6);
             this.tabPage3.Controls.Add(this.CDead1);
             this.tabPage3.Controls.Add(this.CNum9);
+            this.tabPage3.Controls.Add(this.百變怪C);
             this.tabPage3.Controls.Add(this.PG3);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(629, 484);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "第 3 晚";
+            // 
+            // IDK3
+            // 
+            this.IDK3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
+            this.IDK3.Image = ((System.Drawing.Image)(resources.GetObject("IDK3.Image")));
+            this.IDK3.Location = new System.Drawing.Point(568, 391);
+            this.IDK3.Name = "IDK3";
+            this.IDK3.Size = new System.Drawing.Size(27, 27);
+            this.IDK3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.IDK3.TabIndex = 70;
+            this.IDK3.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(2, 3);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 66;
+            this.pictureBox5.TabStop = false;
             // 
             // CDead6
             // 
@@ -972,17 +1062,6 @@
             this.CNum7.Size = new System.Drawing.Size(27, 29);
             this.CNum7.TabIndex = 39;
             this.CNum7.Text = "7";
-            // 
-            // 百變怪C
-            // 
-            this.百變怪C.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
-            this.百變怪C.Image = global::New_FearSurroundNote.Properties.Resources.百變怪;
-            this.百變怪C.Location = new System.Drawing.Point(528, 264);
-            this.百變怪C.Name = "百變怪C";
-            this.百變怪C.Size = new System.Drawing.Size(27, 27);
-            this.百變怪C.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.百變怪C.TabIndex = 61;
-            this.百變怪C.TabStop = false;
             // 
             // CNum10
             // 
@@ -1179,23 +1258,35 @@
             this.CNum9.TabIndex = 41;
             this.CNum9.Text = "9";
             // 
+            // 百變怪C
+            // 
+            this.百變怪C.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
+            this.百變怪C.Image = ((System.Drawing.Image)(resources.GetObject("百變怪C.Image")));
+            this.百變怪C.Location = new System.Drawing.Point(530, 391);
+            this.百變怪C.Name = "百變怪C";
+            this.百變怪C.Size = new System.Drawing.Size(27, 27);
+            this.百變怪C.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.百變怪C.TabIndex = 61;
+            this.百變怪C.TabStop = false;
+            // 
             // PG3
             // 
             this.PG3.Image = global::New_FearSurroundNote.Properties.Resources.監獄;
             this.PG3.Location = new System.Drawing.Point(0, 0);
             this.PG3.Name = "PG3";
             this.PG3.Size = new System.Drawing.Size(630, 490);
-            this.PG3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PG3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PG3.TabIndex = 31;
             this.PG3.TabStop = false;
             // 
             // tabPage4
             // 
             this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.tabPage4.Controls.Add(this.IDK4);
+            this.tabPage4.Controls.Add(this.pictureBox6);
             this.tabPage4.Controls.Add(this.DDead6);
             this.tabPage4.Controls.Add(this.checkBox1);
             this.tabPage4.Controls.Add(this.DDead5);
-            this.tabPage4.Controls.Add(this.百變怪D);
             this.tabPage4.Controls.Add(this.DNum0);
             this.tabPage4.Controls.Add(this.DNum7);
             this.tabPage4.Controls.Add(this.DNum14);
@@ -1215,12 +1306,34 @@
             this.tabPage4.Controls.Add(this.DNum6);
             this.tabPage4.Controls.Add(this.DDead1);
             this.tabPage4.Controls.Add(this.DNum9);
+            this.tabPage4.Controls.Add(this.百變怪D);
             this.tabPage4.Controls.Add(this.PG4);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(629, 484);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "第 4 晚";
+            // 
+            // IDK4
+            // 
+            this.IDK4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
+            this.IDK4.Image = ((System.Drawing.Image)(resources.GetObject("IDK4.Image")));
+            this.IDK4.Location = new System.Drawing.Point(568, 391);
+            this.IDK4.Name = "IDK4";
+            this.IDK4.Size = new System.Drawing.Size(27, 27);
+            this.IDK4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.IDK4.TabIndex = 69;
+            this.IDK4.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(2, 3);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 68;
+            this.pictureBox6.TabStop = false;
             // 
             // DDead6
             // 
@@ -1240,7 +1353,7 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("DFYuanLight-B5", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.ForeColor = System.Drawing.Color.Snow;
-            this.checkBox1.Location = new System.Drawing.Point(515, 457);
+            this.checkBox1.Location = new System.Drawing.Point(523, 456);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(90, 20);
             this.checkBox1.TabIndex = 55;
@@ -1260,17 +1373,6 @@
             this.DDead5.Size = new System.Drawing.Size(40, 29);
             this.DDead5.TabIndex = 66;
             this.DDead5.Text = "☠";
-            // 
-            // 百變怪D
-            // 
-            this.百變怪D.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
-            this.百變怪D.Image = global::New_FearSurroundNote.Properties.Resources.百變怪;
-            this.百變怪D.Location = new System.Drawing.Point(528, 264);
-            this.百變怪D.Name = "百變怪D";
-            this.百變怪D.Size = new System.Drawing.Size(27, 27);
-            this.百變怪D.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.百變怪D.TabIndex = 62;
-            this.百變怪D.TabStop = false;
             // 
             // DNum0
             // 
@@ -1519,13 +1621,24 @@
             this.DNum9.TabIndex = 41;
             this.DNum9.Text = "9";
             // 
+            // 百變怪D
+            // 
+            this.百變怪D.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
+            this.百變怪D.Image = ((System.Drawing.Image)(resources.GetObject("百變怪D.Image")));
+            this.百變怪D.Location = new System.Drawing.Point(530, 391);
+            this.百變怪D.Name = "百變怪D";
+            this.百變怪D.Size = new System.Drawing.Size(27, 27);
+            this.百變怪D.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.百變怪D.TabIndex = 62;
+            this.百變怪D.TabStop = false;
+            // 
             // PG4
             // 
             this.PG4.Image = global::New_FearSurroundNote.Properties.Resources.監獄;
             this.PG4.Location = new System.Drawing.Point(0, 0);
             this.PG4.Name = "PG4";
             this.PG4.Size = new System.Drawing.Size(630, 490);
-            this.PG4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PG4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PG4.TabIndex = 31;
             this.PG4.TabStop = false;
             // 
@@ -1540,8 +1653,8 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.FLP0);
             this.groupBox1.Controls.Add(this.pictureBox1);
+            this.groupBox1.Controls.Add(this.FLP0);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.groupBox1.Location = new System.Drawing.Point(4, -1);
@@ -1549,17 +1662,16 @@
             this.groupBox1.Size = new System.Drawing.Size(75, 380);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "   ";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(2, -1);
+            this.pictureBox1.Location = new System.Drawing.Point(8, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(40, 30);
+            this.pictureBox1.Size = new System.Drawing.Size(27, 27);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 54;
+            this.pictureBox1.TabIndex = 67;
             this.pictureBox1.TabStop = false;
             // 
             // groupBox2
@@ -1585,6 +1697,7 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.FLP2);
+            this.groupBox3.Controls.Add(this.pictureBox7);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.groupBox3.Location = new System.Drawing.Point(163, -1);
@@ -1592,7 +1705,7 @@
             this.groupBox3.Size = new System.Drawing.Size(75, 186);
             this.groupBox3.TabIndex = 4;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "💀";
+            this.groupBox3.Text = "☠️";
             // 
             // FLP2
             // 
@@ -1688,7 +1801,7 @@
             this.Num14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.Num14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num14.Location = new System.Drawing.Point(515, 138);
+            this.Num14.Location = new System.Drawing.Point(538, 135);
             this.Num14.Name = "Num14";
             this.Num14.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
             this.Num14.Size = new System.Drawing.Size(32, 20);
@@ -1701,7 +1814,7 @@
             this.Num0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.Num0.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num0.Location = new System.Drawing.Point(247, 138);
+            this.Num0.Location = new System.Drawing.Point(270, 135);
             this.Num0.Name = "Num0";
             this.Num0.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
             this.Num0.Size = new System.Drawing.Size(23, 20);
@@ -1714,10 +1827,10 @@
             this.Attack4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.Attack4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Attack4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
-            this.Attack4.Location = new System.Drawing.Point(617, 138);
+            this.Attack4.Location = new System.Drawing.Point(638, 135);
             this.Attack4.Name = "Attack4";
             this.Attack4.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
-            this.Attack4.Size = new System.Drawing.Size(33, 25);
+            this.Attack4.Size = new System.Drawing.Size(35, 25);
             this.Attack4.TabIndex = 48;
             this.Attack4.Text = "🔪";
             // 
@@ -1727,7 +1840,7 @@
             this.Num3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.Num3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num3.Location = new System.Drawing.Point(300, 138);
+            this.Num3.Location = new System.Drawing.Point(323, 135);
             this.Num3.Name = "Num3";
             this.Num3.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
             this.Num3.Size = new System.Drawing.Size(23, 20);
@@ -1740,7 +1853,7 @@
             this.Num4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.Num4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num4.Location = new System.Drawing.Point(316, 138);
+            this.Num4.Location = new System.Drawing.Point(339, 135);
             this.Num4.Name = "Num4";
             this.Num4.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
             this.Num4.Size = new System.Drawing.Size(23, 20);
@@ -1753,7 +1866,7 @@
             this.Num6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.Num6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num6.Location = new System.Drawing.Point(348, 138);
+            this.Num6.Location = new System.Drawing.Point(371, 135);
             this.Num6.Name = "Num6";
             this.Num6.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
             this.Num6.Size = new System.Drawing.Size(23, 20);
@@ -1766,7 +1879,7 @@
             this.Num9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.Num9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num9.Location = new System.Drawing.Point(398, 138);
+            this.Num9.Location = new System.Drawing.Point(421, 135);
             this.Num9.Name = "Num9";
             this.Num9.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
             this.Num9.Size = new System.Drawing.Size(23, 20);
@@ -1779,10 +1892,10 @@
             this.Attack1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.Attack1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Attack1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
-            this.Attack1.Location = new System.Drawing.Point(542, 138);
+            this.Attack1.Location = new System.Drawing.Point(563, 135);
             this.Attack1.Name = "Attack1";
             this.Attack1.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
-            this.Attack1.Size = new System.Drawing.Size(33, 25);
+            this.Attack1.Size = new System.Drawing.Size(35, 25);
             this.Attack1.TabIndex = 45;
             this.Attack1.Text = "🔪";
             // 
@@ -1792,10 +1905,10 @@
             this.Attack3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.Attack3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Attack3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
-            this.Attack3.Location = new System.Drawing.Point(567, 138);
+            this.Attack3.Location = new System.Drawing.Point(587, 135);
             this.Attack3.Name = "Attack3";
             this.Attack3.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
-            this.Attack3.Size = new System.Drawing.Size(33, 25);
+            this.Attack3.Size = new System.Drawing.Size(35, 25);
             this.Attack3.TabIndex = 46;
             this.Attack3.Text = "🔪";
             // 
@@ -1805,10 +1918,10 @@
             this.Attack2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.Attack2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Attack2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
-            this.Attack2.Location = new System.Drawing.Point(592, 138);
+            this.Attack2.Location = new System.Drawing.Point(614, 135);
             this.Attack2.Name = "Attack2";
             this.Attack2.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
-            this.Attack2.Size = new System.Drawing.Size(33, 25);
+            this.Attack2.Size = new System.Drawing.Size(35, 25);
             this.Attack2.TabIndex = 47;
             this.Attack2.Text = "🔪";
             // 
@@ -1818,7 +1931,7 @@
             this.Num5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.Num5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num5.Location = new System.Drawing.Point(332, 138);
+            this.Num5.Location = new System.Drawing.Point(355, 135);
             this.Num5.Name = "Num5";
             this.Num5.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
             this.Num5.Size = new System.Drawing.Size(23, 20);
@@ -1831,7 +1944,7 @@
             this.Num13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.Num13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num13.Location = new System.Drawing.Point(490, 138);
+            this.Num13.Location = new System.Drawing.Point(513, 135);
             this.Num13.Name = "Num13";
             this.Num13.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
             this.Num13.Size = new System.Drawing.Size(32, 20);
@@ -1844,7 +1957,7 @@
             this.Num12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.Num12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num12.Location = new System.Drawing.Point(464, 138);
+            this.Num12.Location = new System.Drawing.Point(487, 135);
             this.Num12.Name = "Num12";
             this.Num12.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
             this.Num12.Size = new System.Drawing.Size(32, 20);
@@ -1857,7 +1970,7 @@
             this.Num7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.Num7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num7.Location = new System.Drawing.Point(364, 138);
+            this.Num7.Location = new System.Drawing.Point(387, 135);
             this.Num7.Name = "Num7";
             this.Num7.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
             this.Num7.Size = new System.Drawing.Size(23, 20);
@@ -1870,7 +1983,7 @@
             this.Num1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.Num1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num1.Location = new System.Drawing.Point(262, 138);
+            this.Num1.Location = new System.Drawing.Point(285, 135);
             this.Num1.Name = "Num1";
             this.Num1.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
             this.Num1.Size = new System.Drawing.Size(23, 20);
@@ -1883,7 +1996,7 @@
             this.Num10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.Num10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num10.Location = new System.Drawing.Point(414, 138);
+            this.Num10.Location = new System.Drawing.Point(437, 135);
             this.Num10.Name = "Num10";
             this.Num10.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
             this.Num10.Size = new System.Drawing.Size(32, 20);
@@ -1896,7 +2009,7 @@
             this.Num11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.Num11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num11.Location = new System.Drawing.Point(439, 138);
+            this.Num11.Location = new System.Drawing.Point(462, 135);
             this.Num11.Name = "Num11";
             this.Num11.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
             this.Num11.Size = new System.Drawing.Size(32, 20);
@@ -1909,7 +2022,7 @@
             this.Num8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.Num8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num8.Location = new System.Drawing.Point(382, 138);
+            this.Num8.Location = new System.Drawing.Point(405, 135);
             this.Num8.Name = "Num8";
             this.Num8.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
             this.Num8.Size = new System.Drawing.Size(23, 20);
@@ -1922,7 +2035,7 @@
             this.Num2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.Num2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num2.Location = new System.Drawing.Point(282, 138);
+            this.Num2.Location = new System.Drawing.Point(305, 135);
             this.Num2.Name = "Num2";
             this.Num2.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
             this.Num2.Size = new System.Drawing.Size(23, 20);
@@ -1960,7 +2073,10 @@
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.label1);
+            this.groupBox5.Controls.Add(this.pictureBox2);
+            this.groupBox5.Controls.Add(this.Shield4);
+            this.groupBox5.Controls.Add(this.Shield3);
+            this.groupBox5.Controls.Add(this.Attack3);
             this.groupBox5.Controls.Add(this.Num7);
             this.groupBox5.Controls.Add(this.Num6);
             this.groupBox5.Controls.Add(this.Num5);
@@ -1976,29 +2092,27 @@
             this.groupBox5.Controls.Add(this.Num11);
             this.groupBox5.Controls.Add(this.Num10);
             this.groupBox5.Controls.Add(this.Num8);
-            this.groupBox5.Controls.Add(this.Shield4);
             this.groupBox5.Controls.Add(this.Shield1);
             this.groupBox5.Controls.Add(this.Attack4);
             this.groupBox5.Controls.Add(this.Attack2);
-            this.groupBox5.Controls.Add(this.Attack3);
             this.groupBox5.Controls.Add(this.Shield2);
-            this.groupBox5.Controls.Add(this.Shield3);
             this.groupBox5.Controls.Add(this.Attack1);
-            this.groupBox5.Location = new System.Drawing.Point(4, 377);
+            this.groupBox5.Controls.Add(this.pictureBox11);
+            this.groupBox5.Location = new System.Drawing.Point(4, 378);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(873, 165);
+            this.groupBox5.Size = new System.Drawing.Size(873, 162);
             this.groupBox5.TabIndex = 58;
             this.groupBox5.TabStop = false;
             // 
-            // label1
+            // pictureBox2
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(759, 141);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 13);
-            this.label1.TabIndex = 63;
-            this.label1.Text = "Discord: Alone#1337";
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(771, 133);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 27);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 65;
+            this.pictureBox2.TabStop = false;
             // 
             // Shield4
             // 
@@ -2006,12 +2120,25 @@
             this.Shield4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.Shield4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Shield4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
-            this.Shield4.Location = new System.Drawing.Point(716, 138);
+            this.Shield4.Location = new System.Drawing.Point(739, 135);
             this.Shield4.Name = "Shield4";
             this.Shield4.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
-            this.Shield4.Size = new System.Drawing.Size(30, 25);
+            this.Shield4.Size = new System.Drawing.Size(35, 25);
             this.Shield4.TabIndex = 62;
             this.Shield4.Text = "🛡️";
+            // 
+            // Shield3
+            // 
+            this.Shield3.AutoSize = true;
+            this.Shield3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Shield3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shield3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
+            this.Shield3.Location = new System.Drawing.Point(715, 135);
+            this.Shield3.Name = "Shield3";
+            this.Shield3.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
+            this.Shield3.Size = new System.Drawing.Size(35, 25);
+            this.Shield3.TabIndex = 61;
+            this.Shield3.Text = "🛡️";
             // 
             // Shield1
             // 
@@ -2019,10 +2146,10 @@
             this.Shield1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.Shield1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Shield1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
-            this.Shield1.Location = new System.Drawing.Point(646, 138);
+            this.Shield1.Location = new System.Drawing.Point(665, 135);
             this.Shield1.Name = "Shield1";
             this.Shield1.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
-            this.Shield1.Size = new System.Drawing.Size(30, 25);
+            this.Shield1.Size = new System.Drawing.Size(35, 25);
             this.Shield1.TabIndex = 59;
             this.Shield1.Text = "🛡️";
             // 
@@ -2032,42 +2159,41 @@
             this.Shield2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
             this.Shield2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Shield2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
-            this.Shield2.Location = new System.Drawing.Point(670, 138);
+            this.Shield2.Location = new System.Drawing.Point(692, 135);
             this.Shield2.Name = "Shield2";
             this.Shield2.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
-            this.Shield2.Size = new System.Drawing.Size(30, 25);
+            this.Shield2.Size = new System.Drawing.Size(35, 25);
             this.Shield2.TabIndex = 60;
             this.Shield2.Text = "🛡️";
             // 
-            // Shield3
+            // pictureBox11
             // 
-            this.Shield3.AutoSize = true;
-            this.Shield3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.Shield3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Shield3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
-            this.Shield3.Location = new System.Drawing.Point(694, 138);
-            this.Shield3.Name = "Shield3";
-            this.Shield3.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
-            this.Shield3.Size = new System.Drawing.Size(30, 25);
-            this.Shield3.TabIndex = 61;
-            this.Shield3.Text = "🛡️";
+            this.pictureBox11.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
+            this.pictureBox11.Location = new System.Drawing.Point(2, 10);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(49, 42);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 64;
+            this.pictureBox11.TabStop = false;
+            this.pictureBox11.Click += new System.EventHandler(this.pictureBox11_Click);
             // 
-            // pictureBox2
+            // pictureBox7
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(522, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(83, 49);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 64;
-            this.pictureBox2.TabStop = false;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(5, 86);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(65, 45);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 0;
+            this.pictureBox7.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.ClientSize = new System.Drawing.Size(876, 539);
+            this.ClientSize = new System.Drawing.Size(877, 539);
             this.Controls.Add(this.Right);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -2080,23 +2206,31 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "FearSurrounds-Notes By: Alone";
+            this.Text = "FearSurrounds-Notes  By: Alone";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.IDK)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.百變怪A)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PG1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.IDK2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.百變怪B)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PG2)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.IDK3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.百變怪C)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PG3)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.IDK4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.百變怪D)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PG4)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -2108,6 +2242,8 @@
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2235,7 +2371,6 @@
         private System.Windows.Forms.Label Num2;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label Action;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Panel Right;
         private System.Windows.Forms.GroupBox groupBox5;
@@ -2247,7 +2382,6 @@
         private System.Windows.Forms.PictureBox 百變怪B;
         private System.Windows.Forms.PictureBox 百變怪C;
         private System.Windows.Forms.PictureBox 百變怪D;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label ADead6;
         private System.Windows.Forms.Label ADead5;
         private System.Windows.Forms.Label BDead6;
@@ -2256,7 +2390,18 @@
         private System.Windows.Forms.Label CDead5;
         private System.Windows.Forms.Label DDead6;
         private System.Windows.Forms.Label DDead5;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox IDK;
+        private System.Windows.Forms.PictureBox IDK2;
+        private System.Windows.Forms.PictureBox IDK4;
+        private System.Windows.Forms.PictureBox IDK3;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox7;
     }
 }
 

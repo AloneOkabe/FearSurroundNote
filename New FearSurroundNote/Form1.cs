@@ -22,6 +22,7 @@ namespace New_FearSurroundNote
 		public Form1()
         {
 			InitializeComponent();
+			this.StartPosition = FormStartPosition.CenterScreen;
 
 			var Baselabels = new List<Label> { Num0, Num1, Num2, Num3, Num4, Num5, Num6, Num7, Num8, Num9, Num10, Num11, Num12, Num13, Num14, Attack1, Attack2, Attack3, Attack4, Shield1, Shield2, Shield3, Shield4 };
 			foreach (var label in Baselabels)
@@ -30,16 +31,22 @@ namespace New_FearSurroundNote
 				label.Parent = groupBox5;
 				label.BackColor = Color.Transparent;
 			}
-			var Alabels = new List<Label> { ANum0, ANum1, ANum2, ANum3, ANum4, ANum5, ANum6, ANum7, ANum8, ANum9, ANum10, ANum11, ANum12, ANum13, ANum14, ADead1, ADead2, ADead3, ADead4, ADead5, ADead6 };
+			var Alabels = new List<Label> { ANum0, ANum1, ANum2, ANum3, ANum4, ANum5, ANum6, ANum7, ANum8, ANum9, ANum10, ANum11, ANum12, ANum13, ANum14, ADead1, ADead2, ADead3, ADead4, ADead5, ADead6};
 			foreach (var label in Alabels)
 			{
 				Helper.ControlMover.Init(label);
 				label.Parent = PG1;
 				label.BackColor = Color.Transparent;
 			}
+
+			Helper.ControlMover.Init(IDK);
+			IDK.Parent = PG1;
+			IDK.BackColor = Color.Transparent;
+
 			Helper.ControlMover.Init(百變怪A);
 			百變怪A.Parent = PG1;
 			百變怪A.BackColor = Color.Transparent;
+			
 
 			var Blabels = new List<Label> { BNum0, BNum1, BNum2, BNum3, BNum4, BNum5, BNum6, BNum7, BNum8, BNum9, BNum10, BNum11, BNum12, BNum13, BNum14, BDead1, BDead2, BDead3, BDead4, BDead5, BDead6 };
 			foreach (var label in Blabels)
@@ -48,6 +55,10 @@ namespace New_FearSurroundNote
 				label.Parent = PG2;
 				label.BackColor = Color.Transparent;
 			}
+			Helper.ControlMover.Init(IDK2);
+			IDK2.Parent = PG2;
+			IDK2.BackColor = Color.Transparent;
+
 			Helper.ControlMover.Init(百變怪B);
 			百變怪B.Parent = PG2;
 			百變怪B.BackColor = Color.Transparent;
@@ -58,6 +69,11 @@ namespace New_FearSurroundNote
 				label.Parent = PG3;
 				label.BackColor = Color.Transparent;
 			}
+
+			Helper.ControlMover.Init(IDK3);
+			IDK3.Parent = PG3;
+			IDK3.BackColor = Color.Transparent;
+
 			Helper.ControlMover.Init(百變怪C);
 			百變怪C.Parent = PG3;
 			百變怪C.BackColor = Color.Transparent;
@@ -69,6 +85,11 @@ namespace New_FearSurroundNote
 				label.Parent = PG4;
 				label.BackColor = Color.Transparent;
 			}
+
+			Helper.ControlMover.Init(IDK4);
+			IDK4.Parent = PG4;
+			IDK4.BackColor = Color.Transparent;
+
 			Helper.ControlMover.Init(百變怪D);
 			百變怪D.Parent = PG4;
 			百變怪D.BackColor = Color.Transparent;
@@ -233,6 +254,7 @@ namespace New_FearSurroundNote
 			if (checkBox1.Checked)
 			{
 				timer1.Enabled = true;
+				checkBox1.Enabled = false;
 			}
 			else
 			{
@@ -240,6 +262,21 @@ namespace New_FearSurroundNote
 			}
 		}
 
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+			Form2 myForm = new Form2();
+			myForm.ShowDialog();
+		}
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+			Form2 myForm = new Form2();
+			myForm.ShowDialog();
+		}
+
+        private void PG1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
