@@ -21,6 +21,7 @@ namespace New_FearSurroundNote
 
 		public Form1()
         {
+
 			InitializeComponent();
 			this.StartPosition = FormStartPosition.CenterScreen;
 

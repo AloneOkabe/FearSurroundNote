@@ -1644,9 +1644,11 @@
             // 
             // FLP0
             // 
+            this.FLP0.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FLP0.BackgroundImage")));
+            this.FLP0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.FLP0.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.FLP0.ForeColor = System.Drawing.Color.Azure;
-            this.FLP0.Location = new System.Drawing.Point(1, 28);
+            this.FLP0.Location = new System.Drawing.Point(1, 30);
             this.FLP0.Name = "FLP0";
             this.FLP0.Size = new System.Drawing.Size(70, 345);
             this.FLP0.TabIndex = 1;
@@ -1688,6 +1690,8 @@
             // 
             // FLP1
             // 
+            this.FLP1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FLP1.BackgroundImage")));
+            this.FLP1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.FLP1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.FLP1.Location = new System.Drawing.Point(1, 30);
             this.FLP1.Name = "FLP1";
@@ -1697,7 +1701,6 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.FLP2);
-            this.groupBox3.Controls.Add(this.pictureBox7);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.groupBox3.Location = new System.Drawing.Point(163, -1);
@@ -1709,6 +1712,8 @@
             // 
             // FLP2
             // 
+            this.FLP2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FLP2.BackgroundImage")));
+            this.FLP2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.FLP2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.FLP2.Location = new System.Drawing.Point(1, 30);
             this.FLP2.Name = "FLP2";
@@ -1729,6 +1734,8 @@
             // 
             // FLP3
             // 
+            this.FLP3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FLP3.BackgroundImage")));
+            this.FLP3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.FLP3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.FLP3.Location = new System.Drawing.Point(1, 30);
             this.FLP3.Name = "FLP3";
@@ -2098,6 +2105,7 @@
             this.groupBox5.Controls.Add(this.Shield2);
             this.groupBox5.Controls.Add(this.Attack1);
             this.groupBox5.Controls.Add(this.pictureBox11);
+            this.groupBox5.Controls.Add(this.pictureBox7);
             this.groupBox5.Location = new System.Drawing.Point(4, 378);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(873, 162);
@@ -2107,9 +2115,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(771, 133);
+            this.pictureBox2.Location = new System.Drawing.Point(743, 127);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 27);
+            this.pictureBox2.Size = new System.Drawing.Size(129, 33);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 65;
             this.pictureBox2.TabStop = false;
@@ -2168,9 +2176,10 @@
             // 
             // pictureBox11
             // 
+            this.pictureBox11.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(2, 10);
+            this.pictureBox11.Location = new System.Drawing.Point(1, 118);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(49, 42);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2181,11 +2190,11 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(5, 86);
+            this.pictureBox7.Location = new System.Drawing.Point(3, 71);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(65, 45);
+            this.pictureBox7.Size = new System.Drawing.Size(108, 84);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 0;
+            this.pictureBox7.TabIndex = 66;
             this.pictureBox7.TabStop = false;
             // 
             // Form1
