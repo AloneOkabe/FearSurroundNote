@@ -8,22 +8,63 @@ using System.Text;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 
 namespace New_FearSurroundNote
 {
     public partial class Form1 : Form
     {
+		#region DLL
 		[DllImport("user32.dll")]
 		static extern IntPtr GetForegroundWindow();
+
 		[DllImport("user32.dll")]
 		static extern int GetWindowText(IntPtr hWnd, StringBuilder text, int count);
 
+		// Define the FindWindow API function.
+		[DllImport("user32.dll", EntryPoint = "FindWindow",
+			SetLastError = true)]
+		static extern IntPtr FindWindowByCaption(IntPtr ZeroOnly,
+			string lpWindowName);
+
+
+		[DllImport("user32.dll", SetLastError = true)]
+		static extern bool SetWindowPos(IntPtr hWnd, IntPtr hWndInsertAfter, int X, int Y, int cx, int cy, int uFlags);
+
+		private const int SWP_NOSIZE = 0x0001;
+		private const int SWP_NOZORDER = 0x0004;
+		private const int SWP_SHOWWINDOW = 0x0040;
+
+		#endregion
+
+		public static IntPtr WinGetHandle(string wName)
+		{
+			foreach (Process pList in Process.GetProcesses())
+				if (pList.MainWindowTitle.Contains(wName))
+					return pList.MainWindowHandle;
+
+			return IntPtr.Zero;
+		}
+
+		private static void Shake(Form form)
+		{
+			var original = form.Location;
+			var rnd = new Random(1337);
+			const int shake_amplitude = 10;
+			for (int i = 0; i < 10; i++)
+			{
+				form.Location = new Point(original.X + rnd.Next(-shake_amplitude, shake_amplitude), original.Y + rnd.Next(-shake_amplitude, shake_amplitude));
+				System.Threading.Thread.Sleep(20);
+			}
+			form.Location = original;
+		}
+
 		public Form1()
         {
-
 			InitializeComponent();
 			this.StartPosition = FormStartPosition.CenterScreen;
+			#region MoveShit	
 
 			var Baselabels = new List<Label> { Num0, Num1, Num2, Num3, Num4, Num5, Num6, Num7, Num8, Num9, Num10, Num11, Num12, Num13, Num14, Attack1, Attack2, Attack3, Attack4, Shield1, Shield2, Shield3, Shield4 };
 			foreach (var label in Baselabels)
@@ -32,7 +73,7 @@ namespace New_FearSurroundNote
 				label.Parent = groupBox5;
 				label.BackColor = Color.Transparent;
 			}
-			var Alabels = new List<Label> { ANum0, ANum1, ANum2, ANum3, ANum4, ANum5, ANum6, ANum7, ANum8, ANum9, ANum10, ANum11, ANum12, ANum13, ANum14, ADead1, ADead2, ADead3, ADead4, ADead5, ADead6};
+			var Alabels = new List<Label> { ANum0, ANum1, ANum2, ANum3, ANum4, ANum5, ANum6, ANum7, ANum8, ANum9, ANum10, ANum11, ANum12, ANum13, ANum14, ANum15, ADead1, ADead2, ADead3, ADead4, ADead5, ADead6};
 			foreach (var label in Alabels)
 			{
 				Helper.ControlMover.Init(label);
@@ -49,7 +90,7 @@ namespace New_FearSurroundNote
 			百變怪A.BackColor = Color.Transparent;
 			
 
-			var Blabels = new List<Label> { BNum0, BNum1, BNum2, BNum3, BNum4, BNum5, BNum6, BNum7, BNum8, BNum9, BNum10, BNum11, BNum12, BNum13, BNum14, BDead1, BDead2, BDead3, BDead4, BDead5, BDead6 };
+			var Blabels = new List<Label> { BNum0, BNum1, BNum2, BNum3, BNum4, BNum5, BNum6, BNum7, BNum8, BNum9, BNum10, BNum11, BNum12, BNum13, BNum14, BNum15, BDead1, BDead2, BDead3, BDead4, BDead5, BDead6 };
 			foreach (var label in Blabels)
 			{
 				Helper.ControlMover.Init(label);
@@ -63,7 +104,7 @@ namespace New_FearSurroundNote
 			Helper.ControlMover.Init(百變怪B);
 			百變怪B.Parent = PG2;
 			百變怪B.BackColor = Color.Transparent;
-			var Clabels = new List<Label> { CNum0, CNum1, CNum2, CNum3, CNum4, CNum5, CNum6, CNum7, CNum8, CNum9, CNum10, CNum11, CNum12, CNum13, CNum14, CDead1, CDead2, CDead3, CDead4, CDead5, CDead6 };
+			var Clabels = new List<Label> { CNum0, CNum1, CNum2, CNum3, CNum4, CNum5, CNum6, CNum7, CNum8, CNum9, CNum10, CNum11, CNum12, CNum13, CNum14, CNum15, CDead1, CDead2, CDead3, CDead4, CDead5, CDead6 };
 			foreach (var label in Clabels)
 			{
 				Helper.ControlMover.Init(label);
@@ -79,7 +120,7 @@ namespace New_FearSurroundNote
 			百變怪C.Parent = PG3;
 			百變怪C.BackColor = Color.Transparent;
 
-			var Dlabels = new List<Label> { DNum0, DNum1, DNum2, DNum3, DNum4, DNum5, DNum6, DNum7, DNum8, DNum9, DNum10, DNum11, DNum12, DNum13, DNum14, DDead1, DDead2, DDead3, DDead4, DDead5, DDead6 };
+			var Dlabels = new List<Label> { DNum0, DNum1, DNum2, DNum3, DNum4, DNum5, DNum6, DNum7, DNum8, DNum9, DNum10, DNum11, DNum12, DNum13, DNum14, DNum15, DDead1, DDead2, DDead3, DDead4, DDead5, DDead6 };
 			foreach (var label in Dlabels)
 			{
 				Helper.ControlMover.Init(label);
@@ -94,10 +135,10 @@ namespace New_FearSurroundNote
 			Helper.ControlMover.Init(百變怪D);
 			百變怪D.Parent = PG4;
 			百變怪D.BackColor = Color.Transparent;
-
+			#endregion
 		}
 
-        private void Form1_Load(object sender, EventArgs e)
+		private void Form1_Load(object sender, EventArgs e)
         {
 			fillFLP0(FLP0, 107, 62, 33);
 		}
@@ -269,15 +310,73 @@ namespace New_FearSurroundNote
 			myForm.ShowDialog();
 		}
 
-        private void label1_Click(object sender, EventArgs e)
+        private void PG1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
         {
 			Form2 myForm = new Form2();
 			myForm.ShowDialog();
 		}
 
-        private void PG1_Click(object sender, EventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
+			IntPtr process = FindWindowByCaption(IntPtr.Zero, "FearSurround  ");
+			if (process == IntPtr.Zero)
+			{
+				MessageBox.Show("FearSurround 404 not found","Alone 提提你");
+				return;
+			}
+			SetWindowPos(process, IntPtr.Zero, -10, -35, 2309, 1472, SWP_NOSIZE);
+		}
 
-        }
-    }
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+			if (checkBox2.Checked)
+				Form1.ActiveForm.TopMost = true;
+			else
+				Form1.ActiveForm.TopMost = false;
+		}
+
+		#region Shake
+		private void 百變怪A_Click(object sender, EventArgs e)
+		{
+			Shake(this);
+		}
+		private void 百變怪B_Click(object sender, EventArgs e)
+		{
+			Shake(this);
+		}
+
+		private void 百變怪C_Click(object sender, EventArgs e)
+		{
+			Shake(this);
+		}
+		private void 百變怪D_Click(object sender, EventArgs e)
+        {
+			Shake(this);
+		}
+
+		private void IDK_Click(object sender, EventArgs e)
+		{
+			Shake(this);
+		}
+		private void IDK2_Click(object sender, EventArgs e)
+		{
+			Shake(this);
+		}
+		private void IDK3_Click(object sender, EventArgs e)
+		{
+			Shake(this);
+		}
+
+		private void IDK4_Click(object sender, EventArgs e)
+        {
+			Shake(this);
+		}
+		#endregion
+
+	}
 }

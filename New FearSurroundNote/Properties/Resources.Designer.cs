@@ -93,16 +93,6 @@ namespace New_FearSurroundNote.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap 百變怪 {
-            get {
-                object obj = ResourceManager.GetObject("百變怪", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap 監獄 {
             get {
                 object obj = ResourceManager.GetObject("監獄", resourceCulture);
