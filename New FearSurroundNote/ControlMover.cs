@@ -30,24 +30,25 @@ namespace Helper
 			control.MouseDown += delegate(object sender, MouseEventArgs e)
 			{
 				Dragging = true;
-				DragStart = new Point(e.X, e.Y);
+				DragStart = new Point(e.X, e.Y);                
 				control.Capture = true;
-			};
+                control.BringToFront();
+            };
 			control.MouseUp += delegate(object sender, MouseEventArgs e)
 			{
 				Dragging = false;
 				control.Capture = false;
-			};
-			control.MouseMove += delegate(object sender, MouseEventArgs e)
-			{
-				if (Dragging)
-				{
-					if (direction != Direction.Vertical)
-						container.Left = Math.Max(0, e.X + container.Left - DragStart.X);
-					if (direction != Direction.Horizontal)
-						container.Top = Math.Max(0, e.Y + container.Top - DragStart.Y);
-				}
-			};
-		}
+            };
+            control.MouseMove += delegate (object sender, MouseEventArgs e)
+            {
+                if (Dragging)
+                {
+                    if (direction != Direction.Vertical)
+                        container.Left = Math.Max(0, e.X + container.Left - DragStart.X);
+                    if (direction != Direction.Horizontal)
+                        container.Top = Math.Max(0, e.Y + container.Top - DragStart.Y);
+                }
+            };
+        }
 	}
 }

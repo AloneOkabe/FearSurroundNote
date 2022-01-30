@@ -42,5 +42,15 @@ namespace New_FearSurroundNote
         {
             Clipboard.SetText("moyung0924@gmail.com");
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://discord.gg/cdclub");
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://discord.gg/cdclub");
+        }
     }
 }

@@ -63,7 +63,7 @@ namespace New_FearSurroundNote
 		public Form1()
         {
 			InitializeComponent();
-			this.StartPosition = FormStartPosition.CenterScreen;
+            this.StartPosition = FormStartPosition.CenterScreen;
 			#region MoveShit	
 
 			var Baselabels = new List<Label> { Num0, Num1, Num2, Num3, Num4, Num5, Num6, Num7, Num8, Num9, Num10, Num11, Num12, Num13, Num14, Attack1, Attack2, Attack3, Attack4, Shield1, Shield2, Shield3, Shield4 };
@@ -80,8 +80,8 @@ namespace New_FearSurroundNote
 				label.Parent = PG1;
 				label.BackColor = Color.Transparent;
 			}
-
-			Helper.ControlMover.Init(IDK);
+            
+            Helper.ControlMover.Init(IDK);
 			IDK.Parent = PG1;
 			IDK.BackColor = Color.Transparent;
 
@@ -376,7 +376,6 @@ namespace New_FearSurroundNote
         {
 			Shake(this);
 		}
-		#endregion
-
-	}
+        #endregion
+    }
 }
