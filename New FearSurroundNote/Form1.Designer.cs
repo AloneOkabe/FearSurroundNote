@@ -119,7 +119,6 @@
             this.IDK4 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.百變怪D = new System.Windows.Forms.PictureBox();
-            this.PG4 = new System.Windows.Forms.PictureBox();
             this.DDead6 = new New_FearSurroundNote.TransparentLabel();
             this.DDead5 = new New_FearSurroundNote.TransparentLabel();
             this.DNum0 = new New_FearSurroundNote.TransparentLabel();
@@ -141,6 +140,7 @@
             this.DNum6 = new New_FearSurroundNote.TransparentLabel();
             this.DDead1 = new New_FearSurroundNote.TransparentLabel();
             this.DNum9 = new New_FearSurroundNote.TransparentLabel();
+            this.PG4 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.FLP0 = new System.Windows.Forms.FlowLayoutPanel();
@@ -188,6 +188,8 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.Num3 = new New_FearSurroundNote.TransparentLabel();
             this.Action = new New_FearSurroundNote.TransparentLabel();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.IDK)).BeginInit();
@@ -276,6 +278,7 @@
             // ANum15
             // 
             this.ANum15.BackColor = System.Drawing.Color.Transparent;
+            this.ANum15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ANum15.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ANum15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.ANum15.Location = new System.Drawing.Point(530, 55);
@@ -287,6 +290,7 @@
             // IDK
             // 
             this.IDK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
+            this.IDK.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IDK.Image = ((System.Drawing.Image)(resources.GetObject("IDK.Image")));
             this.IDK.Location = new System.Drawing.Point(570, 400);
             this.IDK.Name = "IDK";
@@ -309,6 +313,7 @@
             // ADead6
             // 
             this.ADead6.BackColor = System.Drawing.Color.Transparent;
+            this.ADead6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ADead6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ADead6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
             this.ADead6.Location = new System.Drawing.Point(565, 365);
@@ -320,6 +325,7 @@
             // ANum0
             // 
             this.ANum0.BackColor = System.Drawing.Color.Transparent;
+            this.ANum0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ANum0.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ANum0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.ANum0.Location = new System.Drawing.Point(530, 86);
@@ -331,6 +337,7 @@
             // ANum6
             // 
             this.ANum6.BackColor = System.Drawing.Color.Transparent;
+            this.ANum6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ANum6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ANum6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.ANum6.Location = new System.Drawing.Point(530, 272);
@@ -342,6 +349,7 @@
             // ANum13
             // 
             this.ANum13.BackColor = System.Drawing.Color.Transparent;
+            this.ANum13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ANum13.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ANum13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.ANum13.Location = new System.Drawing.Point(565, 241);
@@ -353,6 +361,7 @@
             // ANum3
             // 
             this.ANum3.BackColor = System.Drawing.Color.Transparent;
+            this.ANum3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ANum3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ANum3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.ANum3.Location = new System.Drawing.Point(530, 179);
@@ -364,6 +373,7 @@
             // ADead2
             // 
             this.ADead2.BackColor = System.Drawing.Color.Transparent;
+            this.ADead2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ADead2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ADead2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
             this.ADead2.Location = new System.Drawing.Point(525, 334);
@@ -375,6 +385,7 @@
             // ANum10
             // 
             this.ANum10.BackColor = System.Drawing.Color.Transparent;
+            this.ANum10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ANum10.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ANum10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.ANum10.Location = new System.Drawing.Point(565, 148);
@@ -386,6 +397,7 @@
             // ANum8
             // 
             this.ANum8.BackColor = System.Drawing.Color.Transparent;
+            this.ANum8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ANum8.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ANum8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.ANum8.Location = new System.Drawing.Point(570, 86);
@@ -397,6 +409,7 @@
             // 百變怪A
             // 
             this.百變怪A.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
+            this.百變怪A.Cursor = System.Windows.Forms.Cursors.Hand;
             this.百變怪A.Image = ((System.Drawing.Image)(resources.GetObject("百變怪A.Image")));
             this.百變怪A.Location = new System.Drawing.Point(530, 400);
             this.百變怪A.Name = "百變怪A";
@@ -409,6 +422,7 @@
             // ANum9
             // 
             this.ANum9.BackColor = System.Drawing.Color.Transparent;
+            this.ANum9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ANum9.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ANum9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.ANum9.Location = new System.Drawing.Point(570, 117);
@@ -420,6 +434,7 @@
             // ADead5
             // 
             this.ADead5.BackColor = System.Drawing.Color.Transparent;
+            this.ADead5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ADead5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ADead5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
             this.ADead5.Location = new System.Drawing.Point(525, 365);
@@ -431,6 +446,7 @@
             // ANum2
             // 
             this.ANum2.BackColor = System.Drawing.Color.Transparent;
+            this.ANum2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ANum2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ANum2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.ANum2.Location = new System.Drawing.Point(530, 148);
@@ -442,6 +458,7 @@
             // ANum1
             // 
             this.ANum1.BackColor = System.Drawing.Color.Transparent;
+            this.ANum1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ANum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ANum1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.ANum1.Location = new System.Drawing.Point(530, 117);
@@ -453,6 +470,7 @@
             // ADead3
             // 
             this.ADead3.BackColor = System.Drawing.Color.Transparent;
+            this.ADead3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ADead3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ADead3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
             this.ADead3.Location = new System.Drawing.Point(565, 303);
@@ -464,6 +482,7 @@
             // ADead4
             // 
             this.ADead4.BackColor = System.Drawing.Color.Transparent;
+            this.ADead4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ADead4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ADead4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
             this.ADead4.Location = new System.Drawing.Point(565, 334);
@@ -475,6 +494,7 @@
             // ANum5
             // 
             this.ANum5.BackColor = System.Drawing.Color.Transparent;
+            this.ANum5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ANum5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ANum5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.ANum5.Location = new System.Drawing.Point(530, 241);
@@ -486,6 +506,7 @@
             // ADead1
             // 
             this.ADead1.BackColor = System.Drawing.Color.Transparent;
+            this.ADead1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ADead1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ADead1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
             this.ADead1.Location = new System.Drawing.Point(525, 303);
@@ -497,6 +518,7 @@
             // ANum7
             // 
             this.ANum7.BackColor = System.Drawing.Color.Transparent;
+            this.ANum7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ANum7.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ANum7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.ANum7.Location = new System.Drawing.Point(570, 55);
@@ -508,6 +530,7 @@
             // ANum14
             // 
             this.ANum14.BackColor = System.Drawing.Color.Transparent;
+            this.ANum14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ANum14.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ANum14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.ANum14.Location = new System.Drawing.Point(565, 272);
@@ -520,6 +543,7 @@
             // ANum12
             // 
             this.ANum12.BackColor = System.Drawing.Color.Transparent;
+            this.ANum12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ANum12.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ANum12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.ANum12.Location = new System.Drawing.Point(565, 210);
@@ -531,6 +555,7 @@
             // ANum4
             // 
             this.ANum4.BackColor = System.Drawing.Color.Transparent;
+            this.ANum4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ANum4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ANum4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.ANum4.Location = new System.Drawing.Point(530, 210);
@@ -542,6 +567,7 @@
             // ANum11
             // 
             this.ANum11.BackColor = System.Drawing.Color.Transparent;
+            this.ANum11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ANum11.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ANum11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.ANum11.Location = new System.Drawing.Point(565, 179);
@@ -602,6 +628,7 @@
             // BNum0
             // 
             this.BNum0.BackColor = System.Drawing.Color.Transparent;
+            this.BNum0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BNum0.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BNum0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.BNum0.Location = new System.Drawing.Point(530, 86);
@@ -613,6 +640,7 @@
             // BNum15
             // 
             this.BNum15.BackColor = System.Drawing.Color.Transparent;
+            this.BNum15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BNum15.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BNum15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.BNum15.Location = new System.Drawing.Point(530, 55);
@@ -624,6 +652,7 @@
             // BDead6
             // 
             this.BDead6.BackColor = System.Drawing.Color.Transparent;
+            this.BDead6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BDead6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BDead6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
             this.BDead6.Location = new System.Drawing.Point(565, 365);
@@ -635,6 +664,7 @@
             // BDead5
             // 
             this.BDead5.BackColor = System.Drawing.Color.Transparent;
+            this.BDead5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BDead5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BDead5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
             this.BDead5.Location = new System.Drawing.Point(525, 365);
@@ -646,6 +676,7 @@
             // BNum14
             // 
             this.BNum14.BackColor = System.Drawing.Color.Transparent;
+            this.BNum14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BNum14.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BNum14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.BNum14.Location = new System.Drawing.Point(565, 272);
@@ -657,6 +688,7 @@
             // BNum1
             // 
             this.BNum1.BackColor = System.Drawing.Color.Transparent;
+            this.BNum1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BNum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BNum1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.BNum1.Location = new System.Drawing.Point(530, 117);
@@ -668,6 +700,7 @@
             // BNum7
             // 
             this.BNum7.BackColor = System.Drawing.Color.Transparent;
+            this.BNum7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BNum7.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BNum7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.BNum7.Location = new System.Drawing.Point(570, 55);
@@ -679,6 +712,7 @@
             // BNum10
             // 
             this.BNum10.BackColor = System.Drawing.Color.Transparent;
+            this.BNum10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BNum10.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BNum10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.BNum10.Location = new System.Drawing.Point(565, 148);
@@ -690,6 +724,7 @@
             // BNum12
             // 
             this.BNum12.BackColor = System.Drawing.Color.Transparent;
+            this.BNum12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BNum12.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BNum12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.BNum12.Location = new System.Drawing.Point(565, 210);
@@ -701,6 +736,7 @@
             // BNum11
             // 
             this.BNum11.BackColor = System.Drawing.Color.Transparent;
+            this.BNum11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BNum11.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BNum11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.BNum11.Location = new System.Drawing.Point(565, 179);
@@ -712,6 +748,7 @@
             // BDead4
             // 
             this.BDead4.BackColor = System.Drawing.Color.Transparent;
+            this.BDead4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BDead4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BDead4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
             this.BDead4.Location = new System.Drawing.Point(565, 334);
@@ -723,6 +760,7 @@
             // BNum13
             // 
             this.BNum13.BackColor = System.Drawing.Color.Transparent;
+            this.BNum13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BNum13.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BNum13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.BNum13.Location = new System.Drawing.Point(565, 241);
@@ -734,6 +772,7 @@
             // BNum8
             // 
             this.BNum8.BackColor = System.Drawing.Color.Transparent;
+            this.BNum8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BNum8.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BNum8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.BNum8.Location = new System.Drawing.Point(570, 86);
@@ -745,6 +784,7 @@
             // BNum3
             // 
             this.BNum3.BackColor = System.Drawing.Color.Transparent;
+            this.BNum3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BNum3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BNum3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.BNum3.Location = new System.Drawing.Point(530, 179);
@@ -756,6 +796,7 @@
             // BNum5
             // 
             this.BNum5.BackColor = System.Drawing.Color.Transparent;
+            this.BNum5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BNum5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BNum5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.BNum5.Location = new System.Drawing.Point(530, 241);
@@ -767,6 +808,7 @@
             // BNum2
             // 
             this.BNum2.BackColor = System.Drawing.Color.Transparent;
+            this.BNum2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BNum2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BNum2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.BNum2.Location = new System.Drawing.Point(530, 148);
@@ -778,6 +820,7 @@
             // BNum4
             // 
             this.BNum4.BackColor = System.Drawing.Color.Transparent;
+            this.BNum4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BNum4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BNum4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.BNum4.Location = new System.Drawing.Point(530, 210);
@@ -789,6 +832,7 @@
             // BDead2
             // 
             this.BDead2.BackColor = System.Drawing.Color.Transparent;
+            this.BDead2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BDead2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BDead2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
             this.BDead2.Location = new System.Drawing.Point(525, 334);
@@ -800,6 +844,7 @@
             // BDead3
             // 
             this.BDead3.BackColor = System.Drawing.Color.Transparent;
+            this.BDead3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BDead3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BDead3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
             this.BDead3.Location = new System.Drawing.Point(565, 303);
@@ -811,6 +856,7 @@
             // BNum6
             // 
             this.BNum6.BackColor = System.Drawing.Color.Transparent;
+            this.BNum6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BNum6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BNum6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.BNum6.Location = new System.Drawing.Point(530, 272);
@@ -822,6 +868,7 @@
             // BDead1
             // 
             this.BDead1.BackColor = System.Drawing.Color.Transparent;
+            this.BDead1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BDead1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BDead1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
             this.BDead1.Location = new System.Drawing.Point(525, 303);
@@ -833,6 +880,7 @@
             // BNum9
             // 
             this.BNum9.BackColor = System.Drawing.Color.Transparent;
+            this.BNum9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BNum9.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BNum9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.BNum9.Location = new System.Drawing.Point(570, 117);
@@ -844,6 +892,7 @@
             // IDK2
             // 
             this.IDK2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
+            this.IDK2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IDK2.Image = ((System.Drawing.Image)(resources.GetObject("IDK2.Image")));
             this.IDK2.Location = new System.Drawing.Point(570, 400);
             this.IDK2.Name = "IDK2";
@@ -865,6 +914,7 @@
             // 百變怪B
             // 
             this.百變怪B.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
+            this.百變怪B.Cursor = System.Windows.Forms.Cursors.Hand;
             this.百變怪B.Image = ((System.Drawing.Image)(resources.GetObject("百變怪B.Image")));
             this.百變怪B.Location = new System.Drawing.Point(530, 400);
             this.百變怪B.Name = "百變怪B";
@@ -921,6 +971,7 @@
             // CNum15
             // 
             this.CNum15.BackColor = System.Drawing.Color.Transparent;
+            this.CNum15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CNum15.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CNum15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.CNum15.Location = new System.Drawing.Point(530, 55);
@@ -932,6 +983,7 @@
             // CDead6
             // 
             this.CDead6.BackColor = System.Drawing.Color.Transparent;
+            this.CDead6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CDead6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CDead6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
             this.CDead6.Location = new System.Drawing.Point(565, 365);
@@ -943,6 +995,7 @@
             // CDead5
             // 
             this.CDead5.BackColor = System.Drawing.Color.Transparent;
+            this.CDead5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CDead5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CDead5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
             this.CDead5.Location = new System.Drawing.Point(525, 365);
@@ -954,6 +1007,7 @@
             // CNum0
             // 
             this.CNum0.BackColor = System.Drawing.Color.Transparent;
+            this.CNum0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CNum0.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CNum0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.CNum0.Location = new System.Drawing.Point(530, 86);
@@ -965,6 +1019,7 @@
             // CNum14
             // 
             this.CNum14.BackColor = System.Drawing.Color.Transparent;
+            this.CNum14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CNum14.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CNum14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.CNum14.Location = new System.Drawing.Point(565, 272);
@@ -976,6 +1031,7 @@
             // CNum1
             // 
             this.CNum1.BackColor = System.Drawing.Color.Transparent;
+            this.CNum1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CNum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CNum1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.CNum1.Location = new System.Drawing.Point(530, 117);
@@ -987,6 +1043,7 @@
             // CNum7
             // 
             this.CNum7.BackColor = System.Drawing.Color.Transparent;
+            this.CNum7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CNum7.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CNum7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.CNum7.Location = new System.Drawing.Point(570, 55);
@@ -998,6 +1055,7 @@
             // CNum10
             // 
             this.CNum10.BackColor = System.Drawing.Color.Transparent;
+            this.CNum10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CNum10.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CNum10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.CNum10.Location = new System.Drawing.Point(565, 148);
@@ -1009,6 +1067,7 @@
             // CNum12
             // 
             this.CNum12.BackColor = System.Drawing.Color.Transparent;
+            this.CNum12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CNum12.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CNum12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.CNum12.Location = new System.Drawing.Point(565, 210);
@@ -1020,6 +1079,7 @@
             // CNum11
             // 
             this.CNum11.BackColor = System.Drawing.Color.Transparent;
+            this.CNum11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CNum11.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CNum11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.CNum11.Location = new System.Drawing.Point(565, 179);
@@ -1031,6 +1091,7 @@
             // CDead4
             // 
             this.CDead4.BackColor = System.Drawing.Color.Transparent;
+            this.CDead4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CDead4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CDead4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
             this.CDead4.Location = new System.Drawing.Point(565, 334);
@@ -1042,6 +1103,7 @@
             // CNum13
             // 
             this.CNum13.BackColor = System.Drawing.Color.Transparent;
+            this.CNum13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CNum13.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CNum13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.CNum13.Location = new System.Drawing.Point(565, 241);
@@ -1053,6 +1115,7 @@
             // CNum8
             // 
             this.CNum8.BackColor = System.Drawing.Color.Transparent;
+            this.CNum8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CNum8.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CNum8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.CNum8.Location = new System.Drawing.Point(570, 86);
@@ -1064,6 +1127,7 @@
             // CNum3
             // 
             this.CNum3.BackColor = System.Drawing.Color.Transparent;
+            this.CNum3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CNum3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CNum3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.CNum3.Location = new System.Drawing.Point(530, 179);
@@ -1075,6 +1139,7 @@
             // CNum5
             // 
             this.CNum5.BackColor = System.Drawing.Color.Transparent;
+            this.CNum5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CNum5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CNum5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.CNum5.Location = new System.Drawing.Point(530, 241);
@@ -1086,6 +1151,7 @@
             // CNum2
             // 
             this.CNum2.BackColor = System.Drawing.Color.Transparent;
+            this.CNum2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CNum2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CNum2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.CNum2.Location = new System.Drawing.Point(530, 148);
@@ -1097,6 +1163,7 @@
             // CNum4
             // 
             this.CNum4.BackColor = System.Drawing.Color.Transparent;
+            this.CNum4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CNum4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CNum4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.CNum4.Location = new System.Drawing.Point(530, 210);
@@ -1108,6 +1175,7 @@
             // CDead2
             // 
             this.CDead2.BackColor = System.Drawing.Color.Transparent;
+            this.CDead2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CDead2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CDead2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
             this.CDead2.Location = new System.Drawing.Point(525, 334);
@@ -1119,6 +1187,7 @@
             // CDead3
             // 
             this.CDead3.BackColor = System.Drawing.Color.Transparent;
+            this.CDead3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CDead3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CDead3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
             this.CDead3.Location = new System.Drawing.Point(565, 303);
@@ -1130,6 +1199,7 @@
             // CNum6
             // 
             this.CNum6.BackColor = System.Drawing.Color.Transparent;
+            this.CNum6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CNum6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CNum6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.CNum6.Location = new System.Drawing.Point(530, 272);
@@ -1141,6 +1211,7 @@
             // CDead1
             // 
             this.CDead1.BackColor = System.Drawing.Color.Transparent;
+            this.CDead1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CDead1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CDead1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
             this.CDead1.Location = new System.Drawing.Point(525, 303);
@@ -1152,6 +1223,7 @@
             // CNum9
             // 
             this.CNum9.BackColor = System.Drawing.Color.Transparent;
+            this.CNum9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CNum9.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CNum9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.CNum9.Location = new System.Drawing.Point(570, 117);
@@ -1163,6 +1235,7 @@
             // IDK3
             // 
             this.IDK3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
+            this.IDK3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IDK3.Image = ((System.Drawing.Image)(resources.GetObject("IDK3.Image")));
             this.IDK3.Location = new System.Drawing.Point(570, 400);
             this.IDK3.Name = "IDK3";
@@ -1185,6 +1258,7 @@
             // 百變怪C
             // 
             this.百變怪C.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
+            this.百變怪C.Cursor = System.Windows.Forms.Cursors.Hand;
             this.百變怪C.Image = ((System.Drawing.Image)(resources.GetObject("百變怪C.Image")));
             this.百變怪C.Location = new System.Drawing.Point(530, 400);
             this.百變怪C.Name = "百變怪C";
@@ -1244,6 +1318,7 @@
             // DNum15
             // 
             this.DNum15.BackColor = System.Drawing.Color.Transparent;
+            this.DNum15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DNum15.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DNum15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.DNum15.Location = new System.Drawing.Point(530, 55);
@@ -1281,6 +1356,7 @@
             // IDK4
             // 
             this.IDK4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
+            this.IDK4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IDK4.Image = ((System.Drawing.Image)(resources.GetObject("IDK4.Image")));
             this.IDK4.Location = new System.Drawing.Point(570, 400);
             this.IDK4.Name = "IDK4";
@@ -1303,6 +1379,7 @@
             // 百變怪D
             // 
             this.百變怪D.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
+            this.百變怪D.Cursor = System.Windows.Forms.Cursors.Hand;
             this.百變怪D.Image = ((System.Drawing.Image)(resources.GetObject("百變怪D.Image")));
             this.百變怪D.Location = new System.Drawing.Point(530, 400);
             this.百變怪D.Name = "百變怪D";
@@ -1312,19 +1389,10 @@
             this.百變怪D.TabStop = false;
             this.百變怪D.Click += new System.EventHandler(this.百變怪D_Click);
             // 
-            // PG4
-            // 
-            this.PG4.Image = global::New_FearSurroundNote.Properties.Resources.監獄;
-            this.PG4.Location = new System.Drawing.Point(0, 0);
-            this.PG4.Name = "PG4";
-            this.PG4.Size = new System.Drawing.Size(630, 490);
-            this.PG4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PG4.TabIndex = 31;
-            this.PG4.TabStop = false;
-            // 
             // DDead6
             // 
             this.DDead6.BackColor = System.Drawing.Color.Transparent;
+            this.DDead6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DDead6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DDead6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
             this.DDead6.Location = new System.Drawing.Point(565, 365);
@@ -1336,6 +1404,7 @@
             // DDead5
             // 
             this.DDead5.BackColor = System.Drawing.Color.Transparent;
+            this.DDead5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DDead5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DDead5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
             this.DDead5.Location = new System.Drawing.Point(525, 365);
@@ -1347,6 +1416,7 @@
             // DNum0
             // 
             this.DNum0.BackColor = System.Drawing.Color.Transparent;
+            this.DNum0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DNum0.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DNum0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.DNum0.Location = new System.Drawing.Point(530, 86);
@@ -1358,6 +1428,7 @@
             // DNum7
             // 
             this.DNum7.BackColor = System.Drawing.Color.Transparent;
+            this.DNum7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DNum7.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DNum7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.DNum7.Location = new System.Drawing.Point(570, 55);
@@ -1369,6 +1440,7 @@
             // DNum14
             // 
             this.DNum14.BackColor = System.Drawing.Color.Transparent;
+            this.DNum14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DNum14.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DNum14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.DNum14.Location = new System.Drawing.Point(565, 272);
@@ -1380,6 +1452,7 @@
             // DNum1
             // 
             this.DNum1.BackColor = System.Drawing.Color.Transparent;
+            this.DNum1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DNum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DNum1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.DNum1.Location = new System.Drawing.Point(530, 117);
@@ -1391,6 +1464,7 @@
             // DNum12
             // 
             this.DNum12.BackColor = System.Drawing.Color.Transparent;
+            this.DNum12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DNum12.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DNum12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.DNum12.Location = new System.Drawing.Point(565, 210);
@@ -1402,6 +1476,7 @@
             // DNum10
             // 
             this.DNum10.BackColor = System.Drawing.Color.Transparent;
+            this.DNum10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DNum10.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DNum10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.DNum10.Location = new System.Drawing.Point(565, 148);
@@ -1413,6 +1488,7 @@
             // DNum13
             // 
             this.DNum13.BackColor = System.Drawing.Color.Transparent;
+            this.DNum13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DNum13.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DNum13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.DNum13.Location = new System.Drawing.Point(565, 241);
@@ -1424,6 +1500,7 @@
             // DDead4
             // 
             this.DDead4.BackColor = System.Drawing.Color.Transparent;
+            this.DDead4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DDead4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DDead4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
             this.DDead4.Location = new System.Drawing.Point(565, 334);
@@ -1435,6 +1512,7 @@
             // DNum11
             // 
             this.DNum11.BackColor = System.Drawing.Color.Transparent;
+            this.DNum11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DNum11.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DNum11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.DNum11.Location = new System.Drawing.Point(565, 179);
@@ -1446,6 +1524,7 @@
             // DNum5
             // 
             this.DNum5.BackColor = System.Drawing.Color.Transparent;
+            this.DNum5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DNum5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DNum5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.DNum5.Location = new System.Drawing.Point(530, 241);
@@ -1457,6 +1536,7 @@
             // DNum3
             // 
             this.DNum3.BackColor = System.Drawing.Color.Transparent;
+            this.DNum3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DNum3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DNum3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.DNum3.Location = new System.Drawing.Point(530, 179);
@@ -1468,6 +1548,7 @@
             // DNum8
             // 
             this.DNum8.BackColor = System.Drawing.Color.Transparent;
+            this.DNum8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DNum8.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DNum8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.DNum8.Location = new System.Drawing.Point(570, 86);
@@ -1479,6 +1560,7 @@
             // DDead2
             // 
             this.DDead2.BackColor = System.Drawing.Color.Transparent;
+            this.DDead2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DDead2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DDead2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
             this.DDead2.Location = new System.Drawing.Point(525, 334);
@@ -1490,6 +1572,7 @@
             // DNum4
             // 
             this.DNum4.BackColor = System.Drawing.Color.Transparent;
+            this.DNum4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DNum4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DNum4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.DNum4.Location = new System.Drawing.Point(530, 210);
@@ -1501,6 +1584,7 @@
             // DNum2
             // 
             this.DNum2.BackColor = System.Drawing.Color.Transparent;
+            this.DNum2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DNum2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DNum2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.DNum2.Location = new System.Drawing.Point(530, 148);
@@ -1512,6 +1596,7 @@
             // DDead3
             // 
             this.DDead3.BackColor = System.Drawing.Color.Transparent;
+            this.DDead3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DDead3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DDead3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
             this.DDead3.Location = new System.Drawing.Point(565, 303);
@@ -1523,6 +1608,7 @@
             // DNum6
             // 
             this.DNum6.BackColor = System.Drawing.Color.Transparent;
+            this.DNum6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DNum6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DNum6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.DNum6.Location = new System.Drawing.Point(530, 272);
@@ -1534,6 +1620,7 @@
             // DDead1
             // 
             this.DDead1.BackColor = System.Drawing.Color.Transparent;
+            this.DDead1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DDead1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DDead1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
             this.DDead1.Location = new System.Drawing.Point(525, 303);
@@ -1545,6 +1632,7 @@
             // DNum9
             // 
             this.DNum9.BackColor = System.Drawing.Color.Transparent;
+            this.DNum9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DNum9.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DNum9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.DNum9.Location = new System.Drawing.Point(570, 117);
@@ -1553,10 +1641,21 @@
             this.DNum9.TabIndex = 41;
             this.DNum9.Text = "9";
             // 
+            // PG4
+            // 
+            this.PG4.Image = global::New_FearSurroundNote.Properties.Resources.監獄;
+            this.PG4.Location = new System.Drawing.Point(0, 0);
+            this.PG4.Name = "PG4";
+            this.PG4.Size = new System.Drawing.Size(630, 490);
+            this.PG4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PG4.TabIndex = 31;
+            this.PG4.TabStop = false;
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Controls.Add(this.FLP0);
+            this.groupBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.groupBox1.Location = new System.Drawing.Point(4, -1);
@@ -1591,6 +1690,7 @@
             // 
             this.groupBox2.Controls.Add(this.FLP1);
             this.groupBox2.Controls.Add(this.pictureBox9);
+            this.groupBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.groupBox2.Location = new System.Drawing.Point(85, -1);
@@ -1624,6 +1724,7 @@
             // 
             this.groupBox3.Controls.Add(this.pictureBox8);
             this.groupBox3.Controls.Add(this.FLP2);
+            this.groupBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.groupBox3.Location = new System.Drawing.Point(165, 193);
@@ -1657,6 +1758,7 @@
             // 
             this.groupBox4.Controls.Add(this.FLP3);
             this.groupBox4.Controls.Add(this.pictureBox10);
+            this.groupBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.groupBox4.Location = new System.Drawing.Point(165, -1);
@@ -1688,6 +1790,7 @@
             // 
             // OldHospital
             // 
+            this.OldHospital.Cursor = System.Windows.Forms.Cursors.Hand;
             this.OldHospital.Location = new System.Drawing.Point(188, 3);
             this.OldHospital.Name = "OldHospital";
             this.OldHospital.Size = new System.Drawing.Size(75, 23);
@@ -1698,6 +1801,7 @@
             // 
             // School
             // 
+            this.School.Cursor = System.Windows.Forms.Cursors.Hand;
             this.School.Location = new System.Drawing.Point(334, 3);
             this.School.Name = "School";
             this.School.Size = new System.Drawing.Size(75, 23);
@@ -1708,6 +1812,7 @@
             // 
             // Jail
             // 
+            this.Jail.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Jail.Location = new System.Drawing.Point(407, 3);
             this.Jail.Name = "Jail";
             this.Jail.Size = new System.Drawing.Size(75, 23);
@@ -1718,6 +1823,7 @@
             // 
             // villa
             // 
+            this.villa.Cursor = System.Windows.Forms.Cursors.Hand;
             this.villa.Location = new System.Drawing.Point(480, 3);
             this.villa.Name = "villa";
             this.villa.Size = new System.Drawing.Size(75, 23);
@@ -1728,6 +1834,7 @@
             // 
             // NewHospital
             // 
+            this.NewHospital.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NewHospital.Location = new System.Drawing.Point(261, 3);
             this.NewHospital.Name = "NewHospital";
             this.NewHospital.Size = new System.Drawing.Size(75, 23);
@@ -1738,6 +1845,7 @@
             // 
             // GGRE
             // 
+            this.GGRE.Cursor = System.Windows.Forms.Cursors.Hand;
             this.GGRE.Location = new System.Drawing.Point(554, 3);
             this.GGRE.Name = "GGRE";
             this.GGRE.Size = new System.Drawing.Size(75, 23);
@@ -1800,6 +1908,7 @@
             // Shield4
             // 
             this.Shield4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Shield4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Shield4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Shield4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
             this.Shield4.Location = new System.Drawing.Point(720, 137);
@@ -1812,6 +1921,7 @@
             // Shield3
             // 
             this.Shield3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Shield3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Shield3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Shield3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
             this.Shield3.Location = new System.Drawing.Point(695, 136);
@@ -1824,6 +1934,7 @@
             // Attack3
             // 
             this.Attack3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Attack3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Attack3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Attack3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
             this.Attack3.Location = new System.Drawing.Point(571, 136);
@@ -1837,6 +1948,7 @@
             // 
             this.Num7.AutoSize = true;
             this.Num7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Num7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.Num7.Location = new System.Drawing.Point(366, 136);
@@ -1850,6 +1962,7 @@
             // 
             this.Num6.AutoSize = true;
             this.Num6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Num6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.Num6.Location = new System.Drawing.Point(348, 137);
@@ -1863,6 +1976,7 @@
             // 
             this.Num5.AutoSize = true;
             this.Num5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Num5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.Num5.Location = new System.Drawing.Point(330, 137);
@@ -1876,6 +1990,7 @@
             // 
             this.Num4.AutoSize = true;
             this.Num4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Num4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.Num4.Location = new System.Drawing.Point(310, 137);
@@ -1889,6 +2004,7 @@
             // 
             this.Num9.AutoSize = true;
             this.Num9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Num9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.Num9.Location = new System.Drawing.Point(400, 136);
@@ -1902,6 +2018,7 @@
             // 
             this.Num2.AutoSize = true;
             this.Num2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Num2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.Num2.Location = new System.Drawing.Point(277, 137);
@@ -1915,6 +2032,7 @@
             // 
             this.Num1.AutoSize = true;
             this.Num1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Num1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.Num1.Location = new System.Drawing.Point(257, 137);
@@ -1928,6 +2046,7 @@
             // 
             this.Num14.AutoSize = true;
             this.Num14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Num14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.Num14.Location = new System.Drawing.Point(514, 135);
@@ -1941,6 +2060,7 @@
             // 
             this.Num0.AutoSize = true;
             this.Num0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Num0.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.Num0.Location = new System.Drawing.Point(240, 137);
@@ -1954,6 +2074,7 @@
             // 
             this.Num13.AutoSize = true;
             this.Num13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Num13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.Num13.Location = new System.Drawing.Point(489, 136);
@@ -1967,6 +2088,7 @@
             // 
             this.Num12.AutoSize = true;
             this.Num12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Num12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.Num12.Location = new System.Drawing.Point(464, 136);
@@ -1980,6 +2102,7 @@
             // 
             this.Num11.AutoSize = true;
             this.Num11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Num11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.Num11.Location = new System.Drawing.Point(439, 136);
@@ -1993,6 +2116,7 @@
             // 
             this.Num10.AutoSize = true;
             this.Num10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Num10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.Num10.Location = new System.Drawing.Point(414, 136);
@@ -2006,6 +2130,7 @@
             // 
             this.Num8.AutoSize = true;
             this.Num8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Num8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.Num8.Location = new System.Drawing.Point(383, 136);
@@ -2018,6 +2143,7 @@
             // Shield1
             // 
             this.Shield1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Shield1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Shield1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Shield1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
             this.Shield1.Location = new System.Drawing.Point(644, 136);
@@ -2030,6 +2156,7 @@
             // Attack4
             // 
             this.Attack4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Attack4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Attack4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Attack4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
             this.Attack4.Location = new System.Drawing.Point(616, 136);
@@ -2042,6 +2169,7 @@
             // Attack2
             // 
             this.Attack2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Attack2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Attack2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Attack2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
             this.Attack2.Location = new System.Drawing.Point(593, 136);
@@ -2054,6 +2182,7 @@
             // Shield2
             // 
             this.Shield2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Shield2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Shield2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Shield2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
             this.Shield2.Location = new System.Drawing.Point(670, 136);
@@ -2066,6 +2195,7 @@
             // Attack1
             // 
             this.Attack1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Attack1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Attack1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Attack1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
             this.Attack1.Location = new System.Drawing.Point(547, 136);
@@ -2103,6 +2233,7 @@
             // 
             this.Num3.AutoSize = true;
             this.Num3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Num3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
             this.Num3.Location = new System.Drawing.Point(294, 137);
@@ -2124,12 +2255,22 @@
             this.Action.TabIndex = 53;
             this.Action.Visible = false;
             // 
+            // toolTip1
+            // 
+            this.toolTip1.AutomaticDelay = 1000;
+            this.toolTip1.ShowAlways = true;
+            this.toolTip1.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTip1_Popup);
+            // 
+            // toolTip2
+            // 
+            this.toolTip2.ShowAlways = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.ClientSize = new System.Drawing.Size(876, 540);
+            this.ClientSize = new System.Drawing.Size(876, 542);
             this.Controls.Add(this.Right);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.Action);
@@ -2344,6 +2485,8 @@
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ToolTip toolTip2;
     }
 }
 

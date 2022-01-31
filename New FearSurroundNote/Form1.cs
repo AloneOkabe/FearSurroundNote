@@ -140,6 +140,13 @@ namespace New_FearSurroundNote
 
 		private void Form1_Load(object sender, EventArgs e)
         {
+
+			// Create the ToolTip and associate with the Form container.
+			ToolTip toolTip1 = new ToolTip();
+
+			toolTip1.SetToolTip(pictureBox2, "By:Alone#1337");
+			toolTip1.SetToolTip(pictureBox7, "聯絡");
+
 			fillFLP0(FLP0, 107, 62, 33);
 		}
 
@@ -377,5 +384,10 @@ namespace New_FearSurroundNote
 			Shake(this);
 		}
         #endregion
+
+        private void toolTip1_Popup(object sender, PopupEventArgs e)
+        {
+	
+		}
     }
 }
