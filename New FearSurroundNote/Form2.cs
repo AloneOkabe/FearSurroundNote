@@ -35,7 +35,7 @@ namespace New_FearSurroundNote
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            Process.Start("https://discord.gg/cdclub");
+            Process.Start("https://discord.gg/B6AeTZHJ6q");
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
@@ -45,12 +45,12 @@ namespace New_FearSurroundNote
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            Process.Start("https://discord.gg/cdclub");
+            Process.Start("https://discord.gg/B6AeTZHJ6q");
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Process.Start("https://discord.gg/cdclub");
+            Process.Start("https://discord.gg/PDpH7R8");
         }
     }
 }

@@ -9,6 +9,8 @@ using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+using System.Net;
+using System.IO;
 
 
 namespace New_FearSurroundNote
@@ -36,6 +38,12 @@ namespace New_FearSurroundNote
 		private const int SWP_NOZORDER = 0x0004;
 		private const int SWP_SHOWWINDOW = 0x0040;
 
+		[DllImport("User32.dll")]
+		static extern int SetForegroundWindow(IntPtr point);
+
+		[DllImport("User32.Dll", EntryPoint = "PostMessageA")]
+		private static extern bool PostMessage(IntPtr hWnd, uint msg, int wParam, int lParam);
+
 		#endregion
 
 		public static IntPtr WinGetHandle(string wName)
@@ -46,12 +54,11 @@ namespace New_FearSurroundNote
 
 			return IntPtr.Zero;
 		}
-
 		private static void Shake(Form form)
 		{
 			var original = form.Location;
 			var rnd = new Random(1337);
-			const int shake_amplitude = 10;
+			const int shake_amplitude = 5;
 			for (int i = 0; i < 10; i++)
 			{
 				form.Location = new Point(original.X + rnd.Next(-shake_amplitude, shake_amplitude), original.Y + rnd.Next(-shake_amplitude, shake_amplitude));
@@ -59,7 +66,6 @@ namespace New_FearSurroundNote
 			}
 			form.Location = original;
 		}
-
 		public Form1()
         {
 			InitializeComponent();
@@ -269,48 +275,17 @@ namespace New_FearSurroundNote
 		}
         #endregion
 
-        private void timer1_Tick(object sender, EventArgs e)
-		{
-			const int nChars = 25;
-			IntPtr handle;
-			StringBuilder Buff = new StringBuilder(nChars);
-			handle = GetForegroundWindow();
-			if (GetWindowText(handle, Buff, nChars) > 0)
-			{
-				Action.Text = (Buff.ToString());
-			}
-
-			if (Action.Text == "FearSurround  ")
-			{
-				this.Visible = false;
-				//this.Hide();
-				this.Text = "FearSurrounds-Notes By: Alone (Hide)";
-				Size = new Size(0, 0);
-			}
-			else
-			{
-				this.Visible = true;
-				//this.Show();
-				Right.Location = new Point(-2, -3);
-				Size = new Size(640, 545);
-				this.Text = "FearSurrounds-Notes By: Alone";
-
-			}
-		}
-
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
 			if (checkBox1.Checked)
 			{
 				timer1.Enabled = true;
-				checkBox1.Enabled = false;
 			}
 			else
 			{
 				timer1.Enabled = false;
 			}
 		}
-
         private void pictureBox11_Click(object sender, EventArgs e)
         {
 			Form2 myForm = new Form2();
@@ -327,7 +302,6 @@ namespace New_FearSurroundNote
 			Form2 myForm = new Form2();
 			myForm.ShowDialog();
 		}
-
         private void pictureBox2_Click(object sender, EventArgs e)
         {
 			IntPtr process = FindWindowByCaption(IntPtr.Zero, "FearSurround  ");
@@ -339,14 +313,31 @@ namespace New_FearSurroundNote
 			SetWindowPos(process, IntPtr.Zero, -10, -35, 2309, 1472, SWP_NOSIZE);
 		}
 
-        private void checkBox2_CheckedChanged(object sender, EventArgs e)
-        {
+		private void checkBox2_CheckedChanged(object sender, EventArgs e)
+		{
 			if (checkBox2.Checked)
+			{
 				Form1.ActiveForm.TopMost = true;
+				this.FormBorderStyle = FormBorderStyle.None;
+				Size = new Size(892-13, 548-35);
+			}
 			else
-				Form1.ActiveForm.TopMost = false;
+			{ 
+			Form1.ActiveForm.TopMost = false;
+			this.FormBorderStyle = FormBorderStyle.FixedSingle;
+			}
 		}
-
+		private void checkBox3_CheckedChanged(object sender, EventArgs e)
+		{
+			if (checkBox3.Checked)
+			{
+				timer3.Enabled = true;
+			}
+			else
+			{
+				timer3.Enabled = false;
+			}
+		}
 		#region Shake
 		private void 百變怪A_Click(object sender, EventArgs e)
 		{
@@ -388,6 +379,101 @@ namespace New_FearSurroundNote
         private void toolTip1_Popup(object sender, PopupEventArgs e)
         {
 	
+		}
+		private void lastdead_MouseClick(object sender, MouseEventArgs e)
+        {
+			timer2.Enabled = true;
+		}
+		private void timer1_Tick(object sender, EventArgs e)
+		{
+			const int nChars = 25;
+			IntPtr handle;
+			StringBuilder Buff = new StringBuilder(nChars);
+			handle = GetForegroundWindow();
+			if (GetWindowText(handle, Buff, nChars) > 0)
+			{
+				Action.Text = (Buff.ToString());
+			}
+
+			if (Action.Text == "FearSurround  ")
+			{
+				this.Visible = false;
+				this.Hide();
+				this.Text = "FearSurrounds-Notes By: Alone (Hide)";
+				Size = new Size(0, 0);
+			}
+			else
+			{
+				this.Visible = true;
+				this.Show();
+				if (checkBox2.Checked)
+				{
+					Size = new Size(892 - 13, 548 - 35);
+				}
+				else
+				{
+					Size = new Size(892, 548);
+				}				
+				this.Text = "FearSurrounds-Notes By: Alone";
+				Activate();
+			}
+		}
+		private void timer2_Tick(object sender, EventArgs e)
+		{
+			string TimeR = DateTime.Now.ToString("ddMMMMyyyyHHmmss");
+			string DeadpplURL = "https://raw.githubusercontent.com/AloneOkabe/FearSurroundNote/master/last-game" + "?Time=" + TimeR;
+
+			WebClient DeadpplClient = new WebClient();
+			DeadpplClient.CachePolicy = new System.Net.Cache.RequestCachePolicy(System.Net.Cache.RequestCacheLevel.NoCacheNoStore);
+			Stream stream = DeadpplClient.OpenRead(DeadpplURL);
+			StreamReader reader = new StreamReader(stream);
+			String content = reader.ReadToEnd();
+
+
+			var sb = new StringBuilder(content.Length);
+			foreach (char i in content)
+			{
+				if (i == '\n')
+				{
+					sb.Append(Environment.NewLine);
+				}
+				else if (i != '\r' && i != '\t')
+					sb.Append(i);
+			}
+
+			content = sb.ToString();
+			lastdead.Text = (content);
+
+			if (content.Contains("Close"))
+            {
+				System.Windows.Forms.Application.Exit();
+			}
+
+			if (content.Contains("F3"))
+			{
+				Process p = Process.GetProcessesByName("FearSurround").FirstOrDefault();
+				if (p != null)
+				{
+					IntPtr hWnd = p.MainWindowHandle;
+					PostMessage(hWnd, 0x100, 0x72, 0);
+					PostMessage(hWnd, 0x101, 0x72, 0);
+				}
+			}
+			//MessageBox.Show(content);
+		}
+		private void timer3_Tick(object sender, EventArgs e)
+        {
+			Process p = Process.GetProcessesByName("FearSurround").FirstOrDefault();
+			if (p != null)
+			{
+				IntPtr hWnd = p.MainWindowHandle;
+				PostMessage(hWnd, 0x100, 0x72, 0);
+				PostMessage(hWnd, 0x101, 0x72, 0);
+			}
+		}
+		private void lastdead_Click(object sender, EventArgs e)
+        {
+			timer2.Enabled = true;
 		}
     }
 }

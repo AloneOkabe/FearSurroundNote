@@ -32,6 +32,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.lastdead = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.ANum15 = new New_FearSurroundNote.TransparentLabel();
             this.IDK = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -113,12 +116,9 @@
             this.百變怪C = new System.Windows.Forms.PictureBox();
             this.PG3 = new System.Windows.Forms.PictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.DNum15 = new New_FearSurroundNote.TransparentLabel();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.IDK4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.百變怪D = new System.Windows.Forms.PictureBox();
+            this.DNum15 = new New_FearSurroundNote.TransparentLabel();
             this.DDead6 = new New_FearSurroundNote.TransparentLabel();
             this.DDead5 = new New_FearSurroundNote.TransparentLabel();
             this.DNum0 = new New_FearSurroundNote.TransparentLabel();
@@ -140,6 +140,10 @@
             this.DNum6 = new New_FearSurroundNote.TransparentLabel();
             this.DDead1 = new New_FearSurroundNote.TransparentLabel();
             this.DNum9 = new New_FearSurroundNote.TransparentLabel();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.PG4 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -162,36 +166,38 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.Right = new System.Windows.Forms.Panel();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.Shield4 = new New_FearSurroundNote.TransparentLabel();
             this.Shield3 = new New_FearSurroundNote.TransparentLabel();
+            this.Shield4 = new New_FearSurroundNote.TransparentLabel();
             this.Attack3 = new New_FearSurroundNote.TransparentLabel();
-            this.Num7 = new New_FearSurroundNote.TransparentLabel();
-            this.Num6 = new New_FearSurroundNote.TransparentLabel();
-            this.Num5 = new New_FearSurroundNote.TransparentLabel();
-            this.Num4 = new New_FearSurroundNote.TransparentLabel();
-            this.Num9 = new New_FearSurroundNote.TransparentLabel();
-            this.Num2 = new New_FearSurroundNote.TransparentLabel();
-            this.Num1 = new New_FearSurroundNote.TransparentLabel();
-            this.Num14 = new New_FearSurroundNote.TransparentLabel();
-            this.Num0 = new New_FearSurroundNote.TransparentLabel();
-            this.Num13 = new New_FearSurroundNote.TransparentLabel();
-            this.Num12 = new New_FearSurroundNote.TransparentLabel();
-            this.Num11 = new New_FearSurroundNote.TransparentLabel();
-            this.Num10 = new New_FearSurroundNote.TransparentLabel();
-            this.Num8 = new New_FearSurroundNote.TransparentLabel();
-            this.Shield1 = new New_FearSurroundNote.TransparentLabel();
-            this.Attack4 = new New_FearSurroundNote.TransparentLabel();
-            this.Attack2 = new New_FearSurroundNote.TransparentLabel();
-            this.Shield2 = new New_FearSurroundNote.TransparentLabel();
-            this.Attack1 = new New_FearSurroundNote.TransparentLabel();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.Num3 = new New_FearSurroundNote.TransparentLabel();
-            this.Action = new New_FearSurroundNote.TransparentLabel();
+            this.Num4 = new New_FearSurroundNote.TransparentLabel();
+            this.Attack4 = new New_FearSurroundNote.TransparentLabel();
+            this.Num11 = new New_FearSurroundNote.TransparentLabel();
+            this.Num7 = new New_FearSurroundNote.TransparentLabel();
+            this.Num8 = new New_FearSurroundNote.TransparentLabel();
+            this.Attack2 = new New_FearSurroundNote.TransparentLabel();
+            this.Num12 = new New_FearSurroundNote.TransparentLabel();
+            this.Num1 = new New_FearSurroundNote.TransparentLabel();
+            this.Attack1 = new New_FearSurroundNote.TransparentLabel();
+            this.Num9 = new New_FearSurroundNote.TransparentLabel();
+            this.Num0 = new New_FearSurroundNote.TransparentLabel();
+            this.Shield1 = new New_FearSurroundNote.TransparentLabel();
+            this.Num5 = new New_FearSurroundNote.TransparentLabel();
+            this.Num2 = new New_FearSurroundNote.TransparentLabel();
+            this.Shield2 = new New_FearSurroundNote.TransparentLabel();
+            this.Num13 = new New_FearSurroundNote.TransparentLabel();
+            this.Num6 = new New_FearSurroundNote.TransparentLabel();
+            this.Num14 = new New_FearSurroundNote.TransparentLabel();
+            this.Num10 = new New_FearSurroundNote.TransparentLabel();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.timer3 = new System.Windows.Forms.Timer(this.components);
+            this.Action = new New_FearSurroundNote.TransparentLabel();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.IDK)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.百變怪A)).BeginInit();
@@ -208,8 +214,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.PG3)).BeginInit();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.IDK4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.百變怪D)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PG4)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -221,8 +227,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.Right.SuspendLayout();
             this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -241,6 +246,9 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.tabPage1.Controls.Add(this.lastdead);
+            this.tabPage1.Controls.Add(this.pictureBox7);
+            this.tabPage1.Controls.Add(this.pictureBox2);
             this.tabPage1.Controls.Add(this.ANum15);
             this.tabPage1.Controls.Add(this.IDK);
             this.tabPage1.Controls.Add(this.pictureBox3);
@@ -275,6 +283,44 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "第 1 晚";
             // 
+            // lastdead
+            // 
+            this.lastdead.AutoSize = true;
+            this.lastdead.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lastdead.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.lastdead.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lastdead.Location = new System.Drawing.Point(32, 5);
+            this.lastdead.Name = "lastdead";
+            this.lastdead.Size = new System.Drawing.Size(123, 22);
+            this.lastdead.TabIndex = 68;
+            this.lastdead.Text = "點擊更新:金身";
+            this.lastdead.Click += new System.EventHandler(this.lastdead_Click);
+            this.lastdead.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lastdead_MouseClick);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(563, 1);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(46, 46);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 66;
+            this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(513, 449);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(117, 35);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 65;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // ANum15
             // 
             this.ANum15.BackColor = System.Drawing.Color.Transparent;
@@ -292,9 +338,9 @@
             this.IDK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
             this.IDK.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IDK.Image = ((System.Drawing.Image)(resources.GetObject("IDK.Image")));
-            this.IDK.Location = new System.Drawing.Point(570, 400);
+            this.IDK.Location = new System.Drawing.Point(567, 394);
             this.IDK.Name = "IDK";
-            this.IDK.Size = new System.Drawing.Size(27, 27);
+            this.IDK.Size = new System.Drawing.Size(35, 35);
             this.IDK.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.IDK.TabIndex = 66;
             this.IDK.TabStop = false;
@@ -411,9 +457,9 @@
             this.百變怪A.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
             this.百變怪A.Cursor = System.Windows.Forms.Cursors.Hand;
             this.百變怪A.Image = ((System.Drawing.Image)(resources.GetObject("百變怪A.Image")));
-            this.百變怪A.Location = new System.Drawing.Point(530, 400);
+            this.百變怪A.Location = new System.Drawing.Point(526, 394);
             this.百變怪A.Name = "百變怪A";
-            this.百變怪A.Size = new System.Drawing.Size(27, 27);
+            this.百變怪A.Size = new System.Drawing.Size(35, 35);
             this.百變怪A.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.百變怪A.TabIndex = 59;
             this.百變怪A.TabStop = false;
@@ -580,7 +626,7 @@
             // 
             this.PG1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.PG1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.PG1.Image = global::New_FearSurroundNote.Properties.Resources.監獄;
+            this.PG1.Image = global::New_FearSurroundNote.Properties.Resources.別墅;
             this.PG1.Location = new System.Drawing.Point(0, 0);
             this.PG1.Name = "PG1";
             this.PG1.Size = new System.Drawing.Size(630, 490);
@@ -894,9 +940,9 @@
             this.IDK2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
             this.IDK2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IDK2.Image = ((System.Drawing.Image)(resources.GetObject("IDK2.Image")));
-            this.IDK2.Location = new System.Drawing.Point(570, 400);
+            this.IDK2.Location = new System.Drawing.Point(567, 394);
             this.IDK2.Name = "IDK2";
-            this.IDK2.Size = new System.Drawing.Size(27, 27);
+            this.IDK2.Size = new System.Drawing.Size(35, 35);
             this.IDK2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.IDK2.TabIndex = 67;
             this.IDK2.TabStop = false;
@@ -916,16 +962,16 @@
             this.百變怪B.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
             this.百變怪B.Cursor = System.Windows.Forms.Cursors.Hand;
             this.百變怪B.Image = ((System.Drawing.Image)(resources.GetObject("百變怪B.Image")));
-            this.百變怪B.Location = new System.Drawing.Point(530, 400);
+            this.百變怪B.Location = new System.Drawing.Point(526, 394);
             this.百變怪B.Name = "百變怪B";
-            this.百變怪B.Size = new System.Drawing.Size(27, 27);
+            this.百變怪B.Size = new System.Drawing.Size(35, 35);
             this.百變怪B.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.百變怪B.TabIndex = 60;
             this.百變怪B.TabStop = false;
             // 
             // PG2
             // 
-            this.PG2.Image = global::New_FearSurroundNote.Properties.Resources.監獄;
+            this.PG2.Image = global::New_FearSurroundNote.Properties.Resources.別墅;
             this.PG2.Location = new System.Drawing.Point(0, 0);
             this.PG2.Name = "PG2";
             this.PG2.Size = new System.Drawing.Size(630, 490);
@@ -1237,9 +1283,9 @@
             this.IDK3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
             this.IDK3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IDK3.Image = ((System.Drawing.Image)(resources.GetObject("IDK3.Image")));
-            this.IDK3.Location = new System.Drawing.Point(570, 400);
+            this.IDK3.Location = new System.Drawing.Point(567, 394);
             this.IDK3.Name = "IDK3";
-            this.IDK3.Size = new System.Drawing.Size(27, 27);
+            this.IDK3.Size = new System.Drawing.Size(35, 35);
             this.IDK3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.IDK3.TabIndex = 70;
             this.IDK3.TabStop = false;
@@ -1260,9 +1306,9 @@
             this.百變怪C.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
             this.百變怪C.Cursor = System.Windows.Forms.Cursors.Hand;
             this.百變怪C.Image = ((System.Drawing.Image)(resources.GetObject("百變怪C.Image")));
-            this.百變怪C.Location = new System.Drawing.Point(530, 400);
+            this.百變怪C.Location = new System.Drawing.Point(526, 394);
             this.百變怪C.Name = "百變怪C";
-            this.百變怪C.Size = new System.Drawing.Size(27, 27);
+            this.百變怪C.Size = new System.Drawing.Size(35, 35);
             this.百變怪C.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.百變怪C.TabIndex = 61;
             this.百變怪C.TabStop = false;
@@ -1270,7 +1316,7 @@
             // 
             // PG3
             // 
-            this.PG3.Image = global::New_FearSurroundNote.Properties.Resources.監獄;
+            this.PG3.Image = global::New_FearSurroundNote.Properties.Resources.別墅;
             this.PG3.Location = new System.Drawing.Point(0, 0);
             this.PG3.Name = "PG3";
             this.PG3.Size = new System.Drawing.Size(630, 490);
@@ -1281,12 +1327,9 @@
             // tabPage4
             // 
             this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.tabPage4.Controls.Add(this.DNum15);
-            this.tabPage4.Controls.Add(this.checkBox1);
-            this.tabPage4.Controls.Add(this.checkBox2);
             this.tabPage4.Controls.Add(this.IDK4);
-            this.tabPage4.Controls.Add(this.pictureBox6);
             this.tabPage4.Controls.Add(this.百變怪D);
+            this.tabPage4.Controls.Add(this.DNum15);
             this.tabPage4.Controls.Add(this.DDead6);
             this.tabPage4.Controls.Add(this.DDead5);
             this.tabPage4.Controls.Add(this.DNum0);
@@ -1308,12 +1351,42 @@
             this.tabPage4.Controls.Add(this.DNum6);
             this.tabPage4.Controls.Add(this.DDead1);
             this.tabPage4.Controls.Add(this.DNum9);
+            this.tabPage4.Controls.Add(this.checkBox3);
+            this.tabPage4.Controls.Add(this.checkBox1);
+            this.tabPage4.Controls.Add(this.checkBox2);
+            this.tabPage4.Controls.Add(this.pictureBox6);
             this.tabPage4.Controls.Add(this.PG4);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(629, 484);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "第 4 晚";
+            // 
+            // IDK4
+            // 
+            this.IDK4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
+            this.IDK4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.IDK4.Image = ((System.Drawing.Image)(resources.GetObject("IDK4.Image")));
+            this.IDK4.Location = new System.Drawing.Point(567, 394);
+            this.IDK4.Name = "IDK4";
+            this.IDK4.Size = new System.Drawing.Size(35, 35);
+            this.IDK4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.IDK4.TabIndex = 69;
+            this.IDK4.TabStop = false;
+            this.IDK4.Click += new System.EventHandler(this.IDK4_Click);
+            // 
+            // 百變怪D
+            // 
+            this.百變怪D.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
+            this.百變怪D.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.百變怪D.Image = ((System.Drawing.Image)(resources.GetObject("百變怪D.Image")));
+            this.百變怪D.Location = new System.Drawing.Point(526, 394);
+            this.百變怪D.Name = "百變怪D";
+            this.百變怪D.Size = new System.Drawing.Size(35, 35);
+            this.百變怪D.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.百變怪D.TabIndex = 62;
+            this.百變怪D.TabStop = false;
+            this.百變怪D.Click += new System.EventHandler(this.百變怪D_Click);
             // 
             // DNum15
             // 
@@ -1326,68 +1399,6 @@
             this.DNum15.Size = new System.Drawing.Size(25, 29);
             this.DNum15.TabIndex = 71;
             this.DNum15.Text = "?";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.ForeColor = System.Drawing.Color.Snow;
-            this.checkBox1.Location = new System.Drawing.Point(523, 442);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(92, 24);
-            this.checkBox1.TabIndex = 55;
-            this.checkBox1.Text = "直播模式";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.ForeColor = System.Drawing.Color.Snow;
-            this.checkBox2.Location = new System.Drawing.Point(501, 463);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(130, 24);
-            this.checkBox2.TabIndex = 70;
-            this.checkBox2.Text = "Always on Top";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
-            // 
-            // IDK4
-            // 
-            this.IDK4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
-            this.IDK4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.IDK4.Image = ((System.Drawing.Image)(resources.GetObject("IDK4.Image")));
-            this.IDK4.Location = new System.Drawing.Point(570, 400);
-            this.IDK4.Name = "IDK4";
-            this.IDK4.Size = new System.Drawing.Size(27, 27);
-            this.IDK4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.IDK4.TabIndex = 69;
-            this.IDK4.TabStop = false;
-            this.IDK4.Click += new System.EventHandler(this.IDK4_Click);
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(2, 3);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 68;
-            this.pictureBox6.TabStop = false;
-            // 
-            // 百變怪D
-            // 
-            this.百變怪D.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(131)))), ((int)(((byte)(107)))));
-            this.百變怪D.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.百變怪D.Image = ((System.Drawing.Image)(resources.GetObject("百變怪D.Image")));
-            this.百變怪D.Location = new System.Drawing.Point(530, 400);
-            this.百變怪D.Name = "百變怪D";
-            this.百變怪D.Size = new System.Drawing.Size(27, 27);
-            this.百變怪D.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.百變怪D.TabIndex = 62;
-            this.百變怪D.TabStop = false;
-            this.百變怪D.Click += new System.EventHandler(this.百變怪D_Click);
             // 
             // DDead6
             // 
@@ -1641,9 +1652,58 @@
             this.DNum9.TabIndex = 41;
             this.DNum9.Text = "9";
             // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox3.ForeColor = System.Drawing.Color.Snow;
+            this.checkBox3.Location = new System.Drawing.Point(523, 461);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(85, 24);
+            this.checkBox3.TabIndex = 72;
+            this.checkBox3.Text = "Auto F3";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.ForeColor = System.Drawing.Color.Snow;
+            this.checkBox1.Location = new System.Drawing.Point(523, 442);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(92, 24);
+            this.checkBox1.TabIndex = 55;
+            this.checkBox1.Text = "直播模式";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox2.ForeColor = System.Drawing.Color.Snow;
+            this.checkBox2.Location = new System.Drawing.Point(496, 0);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(130, 24);
+            this.checkBox2.TabIndex = 70;
+            this.checkBox2.Text = "Always on Top";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(2, 3);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 68;
+            this.pictureBox6.TabStop = false;
+            // 
             // PG4
             // 
-            this.PG4.Image = global::New_FearSurroundNote.Properties.Resources.監獄;
+            this.PG4.Image = global::New_FearSurroundNote.Properties.Resources.別墅;
             this.PG4.Location = new System.Drawing.Point(0, 0);
             this.PG4.Name = "PG4";
             this.PG4.Size = new System.Drawing.Size(630, 490);
@@ -1856,6 +1916,7 @@
             // 
             // timer1
             // 
+            this.timer1.Interval = 500;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Right
@@ -1874,49 +1935,35 @@
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.Shield4);
             this.groupBox5.Controls.Add(this.Shield3);
+            this.groupBox5.Controls.Add(this.Shield4);
             this.groupBox5.Controls.Add(this.Attack3);
-            this.groupBox5.Controls.Add(this.Num7);
-            this.groupBox5.Controls.Add(this.Num6);
-            this.groupBox5.Controls.Add(this.Num5);
-            this.groupBox5.Controls.Add(this.Num4);
-            this.groupBox5.Controls.Add(this.Num9);
-            this.groupBox5.Controls.Add(this.Num2);
-            this.groupBox5.Controls.Add(this.Num1);
-            this.groupBox5.Controls.Add(this.Num14);
-            this.groupBox5.Controls.Add(this.Num0);
-            this.groupBox5.Controls.Add(this.Num13);
-            this.groupBox5.Controls.Add(this.Num12);
-            this.groupBox5.Controls.Add(this.Num11);
-            this.groupBox5.Controls.Add(this.Num10);
-            this.groupBox5.Controls.Add(this.Num8);
-            this.groupBox5.Controls.Add(this.Shield1);
-            this.groupBox5.Controls.Add(this.Attack4);
-            this.groupBox5.Controls.Add(this.Attack2);
-            this.groupBox5.Controls.Add(this.Shield2);
-            this.groupBox5.Controls.Add(this.Attack1);
-            this.groupBox5.Controls.Add(this.pictureBox7);
-            this.groupBox5.Controls.Add(this.pictureBox2);
             this.groupBox5.Controls.Add(this.Num3);
+            this.groupBox5.Controls.Add(this.Num4);
+            this.groupBox5.Controls.Add(this.Attack4);
+            this.groupBox5.Controls.Add(this.Num11);
+            this.groupBox5.Controls.Add(this.Num7);
+            this.groupBox5.Controls.Add(this.Num8);
+            this.groupBox5.Controls.Add(this.Attack2);
+            this.groupBox5.Controls.Add(this.Num12);
+            this.groupBox5.Controls.Add(this.Num1);
+            this.groupBox5.Controls.Add(this.Attack1);
+            this.groupBox5.Controls.Add(this.Num9);
+            this.groupBox5.Controls.Add(this.Num0);
+            this.groupBox5.Controls.Add(this.Shield1);
+            this.groupBox5.Controls.Add(this.Num5);
+            this.groupBox5.Controls.Add(this.Num2);
+            this.groupBox5.Controls.Add(this.Shield2);
+            this.groupBox5.Controls.Add(this.Num13);
+            this.groupBox5.Controls.Add(this.Num6);
+            this.groupBox5.Controls.Add(this.Num14);
+            this.groupBox5.Controls.Add(this.Num10);
+            this.groupBox5.Controls.Add(this.pictureBox11);
             this.groupBox5.Location = new System.Drawing.Point(4, 378);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(875, 165);
+            this.groupBox5.Size = new System.Drawing.Size(871, 132);
             this.groupBox5.TabIndex = 58;
             this.groupBox5.TabStop = false;
-            // 
-            // Shield4
-            // 
-            this.Shield4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.Shield4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Shield4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Shield4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
-            this.Shield4.Location = new System.Drawing.Point(720, 137);
-            this.Shield4.Name = "Shield4";
-            this.Shield4.Size = new System.Drawing.Size(15, 25);
-            this.Shield4.TabIndex = 62;
-            this.Shield4.Text = "🛡️";
-            this.Shield4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Shield3
             // 
@@ -1924,12 +1971,25 @@
             this.Shield3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Shield3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Shield3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
-            this.Shield3.Location = new System.Drawing.Point(695, 136);
+            this.Shield3.Location = new System.Drawing.Point(221, 9);
             this.Shield3.Name = "Shield3";
             this.Shield3.Size = new System.Drawing.Size(15, 25);
             this.Shield3.TabIndex = 61;
             this.Shield3.Text = "🛡️";
             this.Shield3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Shield4
+            // 
+            this.Shield4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Shield4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Shield4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shield4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
+            this.Shield4.Location = new System.Drawing.Point(221, 9);
+            this.Shield4.Name = "Shield4";
+            this.Shield4.Size = new System.Drawing.Size(15, 25);
+            this.Shield4.TabIndex = 62;
+            this.Shield4.Text = "🛡️";
+            this.Shield4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Attack3
             // 
@@ -1937,297 +1997,12 @@
             this.Attack3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Attack3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Attack3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
-            this.Attack3.Location = new System.Drawing.Point(571, 136);
+            this.Attack3.Location = new System.Drawing.Point(196, 8);
             this.Attack3.Name = "Attack3";
             this.Attack3.Size = new System.Drawing.Size(18, 25);
             this.Attack3.TabIndex = 46;
             this.Attack3.Text = "🔪";
             this.Attack3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Num7
-            // 
-            this.Num7.AutoSize = true;
-            this.Num7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.Num7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Num7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num7.Location = new System.Drawing.Point(366, 136);
-            this.Num7.Name = "Num7";
-            this.Num7.Size = new System.Drawing.Size(22, 20);
-            this.Num7.TabIndex = 38;
-            this.Num7.Text = "7.";
-            this.Num7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Num6
-            // 
-            this.Num6.AutoSize = true;
-            this.Num6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.Num6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Num6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num6.Location = new System.Drawing.Point(348, 137);
-            this.Num6.Name = "Num6";
-            this.Num6.Size = new System.Drawing.Size(22, 20);
-            this.Num6.TabIndex = 37;
-            this.Num6.Text = "6.";
-            this.Num6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Num5
-            // 
-            this.Num5.AutoSize = true;
-            this.Num5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.Num5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Num5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num5.Location = new System.Drawing.Point(330, 137);
-            this.Num5.Name = "Num5";
-            this.Num5.Size = new System.Drawing.Size(22, 20);
-            this.Num5.TabIndex = 36;
-            this.Num5.Text = "5.";
-            this.Num5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Num4
-            // 
-            this.Num4.AutoSize = true;
-            this.Num4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.Num4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Num4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num4.Location = new System.Drawing.Point(310, 137);
-            this.Num4.Name = "Num4";
-            this.Num4.Size = new System.Drawing.Size(22, 20);
-            this.Num4.TabIndex = 35;
-            this.Num4.Text = "4.";
-            this.Num4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Num9
-            // 
-            this.Num9.AutoSize = true;
-            this.Num9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.Num9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Num9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num9.Location = new System.Drawing.Point(400, 136);
-            this.Num9.Name = "Num9";
-            this.Num9.Size = new System.Drawing.Size(22, 20);
-            this.Num9.TabIndex = 40;
-            this.Num9.Text = "9.";
-            this.Num9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Num2
-            // 
-            this.Num2.AutoSize = true;
-            this.Num2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.Num2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Num2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num2.Location = new System.Drawing.Point(277, 137);
-            this.Num2.Name = "Num2";
-            this.Num2.Size = new System.Drawing.Size(22, 20);
-            this.Num2.TabIndex = 33;
-            this.Num2.Text = "2.";
-            this.Num2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Num1
-            // 
-            this.Num1.AutoSize = true;
-            this.Num1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.Num1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Num1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num1.Location = new System.Drawing.Point(257, 137);
-            this.Num1.Name = "Num1";
-            this.Num1.Size = new System.Drawing.Size(22, 20);
-            this.Num1.TabIndex = 32;
-            this.Num1.Text = "1.";
-            this.Num1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Num14
-            // 
-            this.Num14.AutoSize = true;
-            this.Num14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.Num14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Num14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num14.Location = new System.Drawing.Point(514, 135);
-            this.Num14.Name = "Num14";
-            this.Num14.Size = new System.Drawing.Size(31, 20);
-            this.Num14.TabIndex = 49;
-            this.Num14.Text = "14.";
-            this.Num14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Num0
-            // 
-            this.Num0.AutoSize = true;
-            this.Num0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.Num0.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Num0.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num0.Location = new System.Drawing.Point(240, 137);
-            this.Num0.Name = "Num0";
-            this.Num0.Size = new System.Drawing.Size(22, 20);
-            this.Num0.TabIndex = 31;
-            this.Num0.Text = "0.";
-            this.Num0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Num13
-            // 
-            this.Num13.AutoSize = true;
-            this.Num13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.Num13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Num13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num13.Location = new System.Drawing.Point(489, 136);
-            this.Num13.Name = "Num13";
-            this.Num13.Size = new System.Drawing.Size(31, 20);
-            this.Num13.TabIndex = 44;
-            this.Num13.Text = "13.";
-            this.Num13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Num12
-            // 
-            this.Num12.AutoSize = true;
-            this.Num12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.Num12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Num12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num12.Location = new System.Drawing.Point(464, 136);
-            this.Num12.Name = "Num12";
-            this.Num12.Size = new System.Drawing.Size(31, 20);
-            this.Num12.TabIndex = 43;
-            this.Num12.Text = "12.";
-            this.Num12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Num11
-            // 
-            this.Num11.AutoSize = true;
-            this.Num11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.Num11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Num11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num11.Location = new System.Drawing.Point(439, 136);
-            this.Num11.Name = "Num11";
-            this.Num11.Size = new System.Drawing.Size(31, 20);
-            this.Num11.TabIndex = 42;
-            this.Num11.Text = "11.";
-            this.Num11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Num10
-            // 
-            this.Num10.AutoSize = true;
-            this.Num10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.Num10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Num10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num10.Location = new System.Drawing.Point(414, 136);
-            this.Num10.Name = "Num10";
-            this.Num10.Size = new System.Drawing.Size(31, 20);
-            this.Num10.TabIndex = 41;
-            this.Num10.Text = "10.";
-            this.Num10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Num8
-            // 
-            this.Num8.AutoSize = true;
-            this.Num8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.Num8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Num8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num8.Location = new System.Drawing.Point(383, 136);
-            this.Num8.Name = "Num8";
-            this.Num8.Size = new System.Drawing.Size(22, 20);
-            this.Num8.TabIndex = 39;
-            this.Num8.Text = "8.";
-            this.Num8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Shield1
-            // 
-            this.Shield1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.Shield1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Shield1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Shield1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
-            this.Shield1.Location = new System.Drawing.Point(644, 136);
-            this.Shield1.Name = "Shield1";
-            this.Shield1.Size = new System.Drawing.Size(15, 25);
-            this.Shield1.TabIndex = 59;
-            this.Shield1.Text = "🛡️";
-            this.Shield1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Attack4
-            // 
-            this.Attack4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.Attack4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Attack4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Attack4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
-            this.Attack4.Location = new System.Drawing.Point(616, 136);
-            this.Attack4.Name = "Attack4";
-            this.Attack4.Size = new System.Drawing.Size(18, 25);
-            this.Attack4.TabIndex = 48;
-            this.Attack4.Text = "🔪";
-            this.Attack4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Attack2
-            // 
-            this.Attack2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.Attack2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Attack2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Attack2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
-            this.Attack2.Location = new System.Drawing.Point(593, 136);
-            this.Attack2.Name = "Attack2";
-            this.Attack2.Size = new System.Drawing.Size(18, 25);
-            this.Attack2.TabIndex = 47;
-            this.Attack2.Text = "🔪";
-            this.Attack2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Shield2
-            // 
-            this.Shield2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.Shield2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Shield2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Shield2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
-            this.Shield2.Location = new System.Drawing.Point(670, 136);
-            this.Shield2.Name = "Shield2";
-            this.Shield2.Size = new System.Drawing.Size(15, 25);
-            this.Shield2.TabIndex = 60;
-            this.Shield2.Text = "🛡️";
-            this.Shield2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Attack1
-            // 
-            this.Attack1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.Attack1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Attack1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Attack1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
-            this.Attack1.Location = new System.Drawing.Point(547, 136);
-            this.Attack1.Name = "Attack1";
-            this.Attack1.Size = new System.Drawing.Size(18, 25);
-            this.Attack1.TabIndex = 45;
-            this.Attack1.Text = "🔪";
-            this.Attack1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(3, 86);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(98, 74);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 66;
-            this.pictureBox7.TabStop = false;
-            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(742, 130);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(129, 33);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 65;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // Num3
             // 
@@ -2236,12 +2011,300 @@
             this.Num3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Num3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
-            this.Num3.Location = new System.Drawing.Point(294, 137);
+            this.Num3.Location = new System.Drawing.Point(5, 83);
             this.Num3.Name = "Num3";
             this.Num3.Size = new System.Drawing.Size(22, 20);
             this.Num3.TabIndex = 34;
             this.Num3.Text = "3.";
             this.Num3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Num4
+            // 
+            this.Num4.AutoSize = true;
+            this.Num4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Num4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
+            this.Num4.Location = new System.Drawing.Point(5, 108);
+            this.Num4.Name = "Num4";
+            this.Num4.Size = new System.Drawing.Size(22, 20);
+            this.Num4.TabIndex = 35;
+            this.Num4.Text = "4.";
+            this.Num4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Attack4
+            // 
+            this.Attack4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Attack4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Attack4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Attack4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
+            this.Attack4.Location = new System.Drawing.Point(196, 8);
+            this.Attack4.Name = "Attack4";
+            this.Attack4.Size = new System.Drawing.Size(18, 25);
+            this.Attack4.TabIndex = 48;
+            this.Attack4.Text = "🔪";
+            this.Attack4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Num11
+            // 
+            this.Num11.AutoSize = true;
+            this.Num11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num11.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Num11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
+            this.Num11.Location = new System.Drawing.Point(134, 108);
+            this.Num11.Name = "Num11";
+            this.Num11.Size = new System.Drawing.Size(31, 20);
+            this.Num11.TabIndex = 42;
+            this.Num11.Text = "11.";
+            this.Num11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Num7
+            // 
+            this.Num7.AutoSize = true;
+            this.Num7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Num7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
+            this.Num7.Location = new System.Drawing.Point(57, 108);
+            this.Num7.Name = "Num7";
+            this.Num7.Size = new System.Drawing.Size(22, 20);
+            this.Num7.TabIndex = 38;
+            this.Num7.Text = "7.";
+            this.Num7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Num8
+            // 
+            this.Num8.AutoSize = true;
+            this.Num8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Num8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
+            this.Num8.Location = new System.Drawing.Point(75, 108);
+            this.Num8.Name = "Num8";
+            this.Num8.Size = new System.Drawing.Size(22, 20);
+            this.Num8.TabIndex = 39;
+            this.Num8.Text = "8.";
+            this.Num8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Attack2
+            // 
+            this.Attack2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Attack2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Attack2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Attack2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
+            this.Attack2.Location = new System.Drawing.Point(196, 8);
+            this.Attack2.Name = "Attack2";
+            this.Attack2.Size = new System.Drawing.Size(18, 25);
+            this.Attack2.TabIndex = 47;
+            this.Attack2.Text = "🔪";
+            this.Attack2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Num12
+            // 
+            this.Num12.AutoSize = true;
+            this.Num12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Num12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
+            this.Num12.Location = new System.Drawing.Point(158, 108);
+            this.Num12.Name = "Num12";
+            this.Num12.Size = new System.Drawing.Size(31, 20);
+            this.Num12.TabIndex = 43;
+            this.Num12.Text = "12.";
+            this.Num12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Num1
+            // 
+            this.Num1.AutoSize = true;
+            this.Num1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Num1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
+            this.Num1.Location = new System.Drawing.Point(5, 36);
+            this.Num1.Name = "Num1";
+            this.Num1.Size = new System.Drawing.Size(22, 20);
+            this.Num1.TabIndex = 32;
+            this.Num1.Text = "1.";
+            this.Num1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Attack1
+            // 
+            this.Attack1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Attack1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Attack1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Attack1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
+            this.Attack1.Location = new System.Drawing.Point(196, 8);
+            this.Attack1.Name = "Attack1";
+            this.Attack1.Size = new System.Drawing.Size(18, 25);
+            this.Attack1.TabIndex = 45;
+            this.Attack1.Text = "🔪";
+            this.Attack1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Num9
+            // 
+            this.Num9.AutoSize = true;
+            this.Num9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Num9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
+            this.Num9.Location = new System.Drawing.Point(92, 108);
+            this.Num9.Name = "Num9";
+            this.Num9.Size = new System.Drawing.Size(22, 20);
+            this.Num9.TabIndex = 40;
+            this.Num9.Text = "9.";
+            this.Num9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Num0
+            // 
+            this.Num0.AutoSize = true;
+            this.Num0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num0.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Num0.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
+            this.Num0.Location = new System.Drawing.Point(5, 12);
+            this.Num0.Name = "Num0";
+            this.Num0.Size = new System.Drawing.Size(22, 20);
+            this.Num0.TabIndex = 31;
+            this.Num0.Text = "0.";
+            this.Num0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Shield1
+            // 
+            this.Shield1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Shield1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Shield1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shield1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
+            this.Shield1.Location = new System.Drawing.Point(221, 9);
+            this.Shield1.Name = "Shield1";
+            this.Shield1.Size = new System.Drawing.Size(15, 25);
+            this.Shield1.TabIndex = 59;
+            this.Shield1.Text = "🛡️";
+            this.Shield1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Num5
+            // 
+            this.Num5.AutoSize = true;
+            this.Num5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Num5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
+            this.Num5.Location = new System.Drawing.Point(22, 108);
+            this.Num5.Name = "Num5";
+            this.Num5.Size = new System.Drawing.Size(22, 20);
+            this.Num5.TabIndex = 36;
+            this.Num5.Text = "5.";
+            this.Num5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Num2
+            // 
+            this.Num2.AutoSize = true;
+            this.Num2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Num2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
+            this.Num2.Location = new System.Drawing.Point(5, 60);
+            this.Num2.Name = "Num2";
+            this.Num2.Size = new System.Drawing.Size(22, 20);
+            this.Num2.TabIndex = 33;
+            this.Num2.Text = "2.";
+            this.Num2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Shield2
+            // 
+            this.Shield2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Shield2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Shield2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shield2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(160)))));
+            this.Shield2.Location = new System.Drawing.Point(221, 9);
+            this.Shield2.Name = "Shield2";
+            this.Shield2.Size = new System.Drawing.Size(15, 25);
+            this.Shield2.TabIndex = 60;
+            this.Shield2.Text = "🛡️";
+            this.Shield2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Num13
+            // 
+            this.Num13.AutoSize = true;
+            this.Num13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num13.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Num13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
+            this.Num13.Location = new System.Drawing.Point(184, 108);
+            this.Num13.Name = "Num13";
+            this.Num13.Size = new System.Drawing.Size(31, 20);
+            this.Num13.TabIndex = 44;
+            this.Num13.Text = "13.";
+            this.Num13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Num6
+            // 
+            this.Num6.AutoSize = true;
+            this.Num6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Num6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
+            this.Num6.Location = new System.Drawing.Point(41, 108);
+            this.Num6.Name = "Num6";
+            this.Num6.Size = new System.Drawing.Size(22, 20);
+            this.Num6.TabIndex = 37;
+            this.Num6.Text = "6.";
+            this.Num6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Num14
+            // 
+            this.Num14.AutoSize = true;
+            this.Num14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num14.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Num14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
+            this.Num14.Location = new System.Drawing.Point(209, 108);
+            this.Num14.Name = "Num14";
+            this.Num14.Size = new System.Drawing.Size(31, 20);
+            this.Num14.TabIndex = 49;
+            this.Num14.Text = "14.";
+            this.Num14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Num10
+            // 
+            this.Num10.AutoSize = true;
+            this.Num10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
+            this.Num10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Num10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
+            this.Num10.Location = new System.Drawing.Point(109, 108);
+            this.Num10.Name = "Num10";
+            this.Num10.Size = new System.Drawing.Size(31, 20);
+            this.Num10.TabIndex = 41;
+            this.Num10.Text = "10.";
+            this.Num10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
+            this.pictureBox11.Location = new System.Drawing.Point(203, 52);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(38, 52);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 63;
+            this.pictureBox11.TabStop = false;
+            // 
+            // toolTip1
+            // 
+            this.toolTip1.AutomaticDelay = 1000;
+            this.toolTip1.ShowAlways = true;
+            this.toolTip1.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTip1_Popup);
+            // 
+            // timer2
+            // 
+            this.timer2.Enabled = true;
+            this.timer2.Interval = 3000;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // timer3
+            // 
+            this.timer3.Interval = 5000;
+            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
             // 
             // Action
             // 
@@ -2255,22 +2318,12 @@
             this.Action.TabIndex = 53;
             this.Action.Visible = false;
             // 
-            // toolTip1
-            // 
-            this.toolTip1.AutomaticDelay = 1000;
-            this.toolTip1.ShowAlways = true;
-            this.toolTip1.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTip1_Popup);
-            // 
-            // toolTip2
-            // 
-            this.toolTip2.ShowAlways = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(111)))), ((int)(((byte)(84)))));
-            this.ClientSize = new System.Drawing.Size(876, 542);
+            this.ClientSize = new System.Drawing.Size(876, 509);
             this.Controls.Add(this.Right);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.Action);
@@ -2287,6 +2340,9 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.IDK)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.百變怪A)).EndInit();
@@ -2304,8 +2360,8 @@
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.IDK4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.百變怪D)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PG4)).EndInit();
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -2318,8 +2374,7 @@
             this.Right.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2486,7 +2541,11 @@
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.ToolTip toolTip1;
-        private System.Windows.Forms.ToolTip toolTip2;
+        private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Label lastdead;
+        private System.Windows.Forms.Timer timer3;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.PictureBox pictureBox11;
     }
 }
 
